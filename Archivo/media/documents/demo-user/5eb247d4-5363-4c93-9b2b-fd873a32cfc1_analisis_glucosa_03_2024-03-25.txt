@@ -1,0 +1,32 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 25 de marzo de 2024
+Paciente: Demo User
+ID: DEMO-003
+
+CONTROL TRIMESTRAL
+
+Glucosa en ayunas: 92 mg/dl (NORMAL)
+HbA1c: 5.6% (NORMAL)
+Insulina: 6.9 mU/L
+Colesterol total: 175 mg/dl
+Colesterol HDL: 52 mg/dl
+Colesterol LDL: 105 mg/dl
+Triglicéridos: 138 mg/dl (NORMAL)
+Hemoglobina: 14.5 g/dl
+Hematocrito: 44%
+Leucocitos: 5800 /μL
+Plaquetas: 295000 /μL
+Creatinina: 0.8 mg/dl
+Urea: 24 mg/dl
+
+EXCELENTE EVOLUCIÓN:
+- Glucosa completamente normalizada
+- HbA1c en rango normal
+- Perfil lipídico muy mejorado
+- Triglicéridos normalizados
+- Todos los parámetros en rangos óptimos
+
+RECOMENDACIONES:
+- Mantener estilo de vida actual
+- Control anual
+- Felicitaciones por el control logrado 

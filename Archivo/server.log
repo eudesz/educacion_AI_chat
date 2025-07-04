@@ -1,0 +1,78 @@
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+[01/Jul/2025 13:23:02] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:03] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+INFO 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+[01/Jul/2025 13:23:04] "GET /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/ HTTP/1.1" 200 4481
+[01/Jul/2025 13:23:39] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:39] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:40] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:40] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:40] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:41] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:23:46] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:24:14] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:24:17] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:24:41] "GET /api/documents/serve/6G_GD_%20Modulo_16_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 90446055
+[01/Jul/2025 13:24:57] "GET /api/documents/serve/6G_GD_%20Modulo_13_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 14891756
+[01/Jul/2025 13:25:06] "GET /api/documents/serve/6G_GD_%20Modulo_13_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 14891756
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:25:06] "GET /api/documents/api/list/ HTTP/1.1" 200 1983
+INFO 🔍 Obteniendo estructura para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO 🔄 Analizando estructura para: 6G_GD_ Modulo_16_Matemática.pdf
+INFO 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/6G_GD_ Modulo_16_Matemática.pdf
+INFO 🔍 Analizando estructura del documento...
+INFO   📋 Unidad encontrado: ÁLGEBRA BÁSICA
+INFO   📋 Modulo encontrado: ECUACIONES LINEALES
+INFO   📋 Clase encontrado: Introducción a las variables
+INFO   📋 Clase encontrado: Métodos de resolución
+INFO   📋 Modulo encontrado: GEOMETRÍA ANALÍTICA
+INFO   📋 Clase encontrado: Plano cartesiano
+INFO   📋 Clase encontrado: Funciones lineales
+INFO   📋 Unidad encontrado: ESTADÍSTICA Y PROBABILIDAD
+INFO   📋 Modulo encontrado: ANÁLISIS DE DATOS
+INFO   📋 Clase encontrado: Medidas de tendencia central
+INFO ✅ Análisis completado: 10 elementos encontrados
+INFO 📝 Creando chunks semánticos...
+INFO ✅ Creados 10 chunks semánticos
+INFO ✅ Estructura analizada y guardada para: 6G_GD_ Modulo_16_Matemática.pdf
+[01/Jul/2025 13:25:06] "GET /api/documents/api/structure/d51d6c5f-0edb-4e49-abdb-3cef032fdc43/ HTTP/1.1" 200 5096
+INFO 📝 Obteniendo chunks para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO ✅ Encontrados 10 chunks para: 6G_GD_ Modulo_16_Matemática.pdf
+[01/Jul/2025 13:25:06] "GET /api/documents/api/chunks/d51d6c5f-0edb-4e49-abdb-3cef032fdc43/ HTTP/1.1" 200 3702
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:25:06] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+[01/Jul/2025 13:25:06] "GET /api/documents/serve/6G_GD_%20Modulo_13_Matem%C3%A1tica.pdf/ HTTP/1.1" 200 14891756
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:27:40] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:27:40] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 🔍 Obteniendo estructura para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO ✅ Estructura ya analizada para: 6G_GD_ Modulo_16_Matemática.pdf
+[01/Jul/2025 13:27:42] "GET /api/documents/api/structure/d51d6c5f-0edb-4e49-abdb-3cef032fdc43/ HTTP/1.1" 200 5076
+INFO 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+[01/Jul/2025 13:28:05] "GET /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/ HTTP/1.1" 200 4481
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:33] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:33] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:36] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+[01/Jul/2025 13:28:36] "GET /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/ HTTP/1.1" 200 4481
+INFO 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:36] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+[01/Jul/2025 13:28:36] "GET /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/ HTTP/1.1" 200 4481
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:48] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:28:48] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:31:55] "GET /api/documents/api/list/ HTTP/1.1" 200 2077
+INFO 📋 Listando 5 documentos
+[01/Jul/2025 13:31:55] "GET /api/documents/api/list/ HTTP/1.1" 200 2077

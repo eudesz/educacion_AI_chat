@@ -1,0 +1,34 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 30 de septiembre de 2024
+Paciente: Demo User
+ID: DEMO-009
+
+SEGUIMIENTO POST-AJUSTE TERAPÉUTICO
+
+Glucosa en ayunas: 94 mg/dl (NORMAL)
+HbA1c: 5.7% (NORMAL)
+Insulina: 6.8 mU/L
+Colesterol total: 168 mg/dl
+Colesterol HDL: 53 mg/dl
+Colesterol LDL: 102 mg/dl
+Triglicéridos: 135 mg/dl (NORMAL)
+Hemoglobina: 14.6 g/dl
+Hematocrito: 44%
+Leucocitos: 5700 /μL
+Plaquetas: 302000 /μL
+Creatinina: 0.8 mg/dl
+Urea: 23 mg/dl
+Magnesio: 2.0 mg/dl
+
+RECUPERACIÓN EXITOSA:
+- Glucosa nuevamente en rango normal
+- HbA1c excelente (meta lograda)
+- Perfil lipídico óptimo
+- Sensibilidad a insulina mejorada
+- Magnesio en rango normal
+
+MANTENIMIENTO DEL CONTROL:
+- Continuar metformina actual
+- Felicitaciones por recuperar control
+- Mantener hábitos saludables
+- Control trimestral programado 

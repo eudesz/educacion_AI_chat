@@ -1,0 +1,34 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 25 de julio de 2024
+Paciente: Demo User
+ID: DEMO-007
+
+EVALUACIÓN TRIMESTRAL CON TRATAMIENTO
+
+Glucosa en ayunas: 96 mg/dl (NORMAL)
+HbA1c: 5.9% (NORMAL ALTO)
+Insulina: 7.2 mU/L
+Colesterol total: 172 mg/dl
+Colesterol HDL: 51 mg/dl
+Colesterol LDL: 108 mg/dl
+Triglicéridos: 142 mg/dl (NORMAL)
+Hemoglobina: 14.4 g/dl
+Hematocrito: 43%
+Leucocitos: 5900 /μL
+Plaquetas: 295000 /μL
+Creatinina: 0.8 mg/dl
+Urea: 25 mg/dl
+Vitamina D: 32 ng/ml
+
+EXCELENTE RESPUESTA AL TRATAMIENTO:
+- Glucosa normalizada con metformina
+- HbA1c en descenso significativo
+- Perfil lipídico muy mejorado
+- Sensibilidad a insulina recuperándose
+- Vitamina D en rango normal
+
+CONTINUAR PLAN ACTUAL:
+- Metformina 850mg/12h efectiva
+- Mantener estilo de vida saludable
+- Control en 3 meses
+- Considerar reducción de dosis si mantiene control 

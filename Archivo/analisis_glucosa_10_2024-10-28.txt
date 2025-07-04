@@ -1,0 +1,35 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 28 de octubre de 2024
+Paciente: Demo User
+ID: DEMO-010
+
+CONTROL ANUAL COMPLETO - ESTADO ACTUAL
+
+Glucosa en ayunas: 89 mg/dl (NORMAL)
+HbA1c: 5.4% (EXCELENTE)
+Insulina: 6.1 mU/L
+Colesterol total: 162 mg/dl
+Colesterol HDL: 58 mg/dl
+Colesterol LDL: 96 mg/dl
+Triglicéridos: 128 mg/dl (NORMAL)
+Hemoglobina: 14.8 g/dl
+Hematocrito: 45%
+Leucocitos: 5500 /μL
+Plaquetas: 310000 /μL
+Creatinina: 0.7 mg/dl
+Urea: 22 mg/dl
+Microalbuminuria: 15 mg/g (NORMAL)
+
+ESTADO METABÓLICO ÓPTIMO:
+- Glucosa en rango excelente
+- HbA1c objetivo conseguido
+- Perfil lipídico ideal
+- Sin complicaciones microvasculares
+- Función renal perfecta
+- Evolución ejemplar en 10 meses
+
+PLAN A LARGO PLAZO:
+- Reducir metformina a 500mg/día
+- Mantener estilo de vida actual
+- Control semestral
+- Paciente modelo de control diabético 

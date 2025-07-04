@@ -1,0 +1,31 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 30 de abril de 2024
+Paciente: Demo User
+ID: DEMO-004
+
+CONTROL POST-VACACIONES
+
+Glucosa en ayunas: 105 mg/dl (ALTO)
+HbA1c: 5.8% (NORMAL ALTO)
+Insulina: 8.2 mU/L
+Colesterol total: 185 mg/dl
+Colesterol HDL: 49 mg/dl
+Colesterol LDL: 115 mg/dl
+Triglicéridos: 148 mg/dl (NORMAL)
+Hemoglobina: 14.2 g/dl
+Hematocrito: 43%
+Leucocitos: 6100 /μL
+Plaquetas: 288000 /μL
+Creatinina: 0.9 mg/dl
+Urea: 27 mg/dl
+
+OBSERVACIONES:
+- Leve incremento en glucosa tras período vacacional
+- HbA1c aún en rango aceptable
+- Perfil lipídico estable
+- Necesario retomar hábitos saludables
+
+RECOMENDACIONES:
+- Retomar dieta estricta
+- Aumentar actividad física
+- Control en 2 meses 

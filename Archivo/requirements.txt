@@ -1,0 +1,40 @@
+Django==4.2.7
+djangorestframework==3.14.0
+channels==4.1.0
+channels-redis==4.2.0
+django-cors-headers==4.3.1
+python-dotenv==1.0.0
+redis==5.0.6
+
+# RAG System Dependencies
+openai==1.3.6
+sentence-transformers==2.2.2
+PyMuPDF==1.23.8
+pytesseract==0.3.10
+Pillow==10.1.0
+numpy==1.24.3
+scikit-learn==1.3.2
+
+# AI Agents Dependencies
+anthropic==0.7.7
+langchain==0.1.0
+langchain-openai==0.0.2
+chromadb==0.4.22
+tiktoken==0.5.2
+faiss-cpu==1.7.4
+
+# Async and Memory
+aioredis==2.0.1
+celery==5.3.4
+
+# RAG Evaluation Dependencies
+deepeval==0.21.73
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+requests==2.31.0
+
+# Additional AI Dependencies
+tiktoken==0.5.2
+typing-extensions==4.8.0 

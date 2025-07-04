@@ -1,0 +1,33 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 20 de agosto de 2024
+Paciente: Demo User
+ID: DEMO-008
+
+CONTROL DE RUTINA - VERANO
+
+Glucosa en ayunas: 108 mg/dl (ALTO)
+HbA1c: 6.0% (NORMAL ALTO)
+Insulina: 8.7 mU/L
+Colesterol total: 184 mg/dl
+Colesterol HDL: 47 mg/dl
+Colesterol LDL: 118 mg/dl
+Triglicéridos: 159 mg/dl (ALTO)
+Hemoglobina: 14.1 g/dl
+Hematocrito: 42%
+Leucocitos: 6400 /μL
+Plaquetas: 288000 /μL
+Creatinina: 0.9 mg/dl
+Urea: 28 mg/dl
+Ácido úrico: 6.2 mg/dl
+
+OBSERVACIONES:
+- Leve incremento en glucosa (posible relajación dietética)
+- HbA1c aún en rango aceptable
+- Triglicéridos elevados nuevamente
+- Necesario reforzar adherencia al tratamiento
+
+AJUSTES RECOMENDADOS:
+- Revisar adherencia a metformina
+- Reforzar educación nutricional
+- Aumentar frecuencia de ejercicio
+- Control estricto en 6 semanas 

@@ -1,0 +1,31 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 20 de febrero de 2024
+Paciente: Demo User
+ID: DEMO-002
+
+SEGUIMIENTO METABÓLICO
+
+Glucosa en ayunas: 98 mg/dl (NORMAL)
+HbA1c: 5.9% (NORMAL ALTO)
+Insulina: 7.8 mU/L
+Colesterol total: 188 mg/dl
+Colesterol HDL: 48 mg/dl
+Colesterol LDL: 118 mg/dl
+Triglicéridos: 155 mg/dl (ALTO)
+Hemoglobina: 14.3 g/dl
+Hematocrito: 43%
+Leucocitos: 6200 /μL
+Plaquetas: 290000 /μL
+Creatinina: 0.8 mg/dl
+Urea: 26 mg/dl
+
+EVOLUCIÓN:
+- Mejoría notable en glucosa en ayunas
+- HbA1c en descenso, acercándose a valores normales
+- Leve mejoría en perfil lipídico
+- Función renal excelente
+
+RECOMENDACIONES:
+- Continuar con cambios en estilo de vida
+- Mantener dieta y ejercicio
+- Control en 3 meses 

@@ -1,0 +1,32 @@
+LABORATORIO CLÍNICO SALUSCLOUD
+Fecha: 20 de junio de 2024
+Paciente: Demo User
+
+CONTROL SEMESTRAL - PERFIL TIROIDEO
+
+TSH (Hormona Estimulante del Tiroides): 3.2 mUI/L
+Rango normal: 0.4 - 4.0 mUI/L
+
+T4 Libre (Tiroxina libre): 1.1 ng/dL  
+Rango normal: 0.8 - 1.8 ng/dL
+
+T3 Libre (Triyodotironina libre): 2.9 pg/mL
+Rango normal: 2.3 - 4.2 pg/mL
+
+T4 Total: 7.8 μg/dL
+Rango normal: 5.0 - 12.0 μg/dL
+
+Anticuerpos anti-TPO: 15 UI/mL
+Rango normal: <35 UI/mL
+
+INTERPRETACIÓN:
+Función tiroidea dentro de límites normales. Se observa leve incremento en TSH comparado con análisis anterior (2.8 → 3.2 mUI/L), pero aún dentro del rango normal.
+
+T4 libre y T3 libre mantienen valores adecuados.
+
+Evolución favorable sin signos de disfunción tiroidea.
+
+Recomendaciones:
+- Continuar controles semestrales
+- Mantener estilo de vida saludable
+- Próximo control en 6 meses

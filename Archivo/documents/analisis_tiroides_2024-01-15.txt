@@ -1,0 +1,33 @@
+LABORATORIO CLÍNICO SALUSCLOUD
+Fecha: 15 de enero de 2024
+Paciente: Demo User
+
+PERFIL TIROIDEO COMPLETO
+
+TSH (Hormona Estimulante del Tiroides): 2.8 mUI/L
+Rango normal: 0.4 - 4.0 mUI/L
+
+T4 Libre (Tiroxina libre): 1.3 ng/dL  
+Rango normal: 0.8 - 1.8 ng/dL
+
+T3 Libre (Triyodotironina libre): 3.1 pg/mL
+Rango normal: 2.3 - 4.2 pg/mL
+
+T4 Total: 8.2 μg/dL
+Rango normal: 5.0 - 12.0 μg/dL
+
+Anticuerpos anti-TPO: 12 UI/mL
+Rango normal: <35 UI/mL
+
+Anticuerpos anti-tiroglobulina: 8 UI/mL
+Rango normal: <20 UI/mL
+
+INTERPRETACIÓN:
+Función tiroidea normal. Todos los valores se encuentran dentro de los rangos de referencia.
+No se evidencian signos de hipotiroidismo o hipertiroidismo.
+Los anticuerpos tiroideos están en niveles normales, descartando tiroiditis autoinmune.
+
+Recomendaciones:
+- Control anual de función tiroidea
+- Mantener dieta balanceada rica en yodo
+- Seguimiento médico rutinario

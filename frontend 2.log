@@ -1,0 +1,31 @@
+
+> genie-ai-enterprise@2.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.30
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1486ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1775ms (1732 modules)
+ContextDisplay received: []
+ GET / 200 in 2147ms
+ ✓ Compiled in 359ms (888 modules)
+ContextDisplay received: []
+ GET / 200 in 28ms
+ContextDisplay received: []
+ GET / 200 in 92ms
+ ✓ Compiled /_not-found in 493ms (1721 modules)
+ GET /site.webmanifest 404 in 592ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G%20GD%20M1-M5%20b.pdf 404 in 15ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G%20GD%20M1-M5%20b.pdf 404 in 28ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G%20GD%20M1-M5%20b.pdf 404 in 22ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/6G_GD_%20Modulo_16_Matem%C3%A1tica%20(1).pdf 404 in 34ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G%20GD%20M1-M5%20b.pdf 404 in 24ms
+ GET /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G%20GD%20M1-M5%20b.pdf 404 in 23ms
+ ✓ Compiled in 832ms (1732 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 706ms (1721 modules)
+ GET /site.webmanifest 404 in 784ms
+[?25h

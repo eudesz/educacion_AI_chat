@@ -1,0 +1,23 @@
+Django==4.2.7
+djangorestframework==3.14.0
+channels==4.1.0
+channels-redis==4.2.0
+django-cors-headers==4.3.1
+python-dotenv==1.0.0
+redis==5.0.6
+
+# AI Agents Dependencies - Basic
+openai==1.3.6
+anthropic==0.7.7
+tiktoken==0.5.2
+
+# Async and Memory
+aioredis==2.0.1
+
+# Basic RAG Dependencies
+sentence-transformers==2.2.2
+numpy==1.24.3
+scikit-learn==1.3.2
+
+# Basic file handling
+requests==2.31.0 

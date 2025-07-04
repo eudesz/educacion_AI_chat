@@ -1,0 +1,33 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 15 de mayo de 2024
+Paciente: Demo User
+ID: DEMO-005
+
+CONTROL URGENTE - SÍNTOMAS DE HIPERGLUCEMIA
+
+Glucosa en ayunas: 128 mg/dl (MUY ALTO)
+HbA1c: 6.4% (PREDIABETES AVANZADA)
+Insulina: 12.3 mU/L (ELEVADA)
+Colesterol total: 208 mg/dl (ALTO)
+Colesterol HDL: 42 mg/dl (BAJO)
+Colesterol LDL: 135 mg/dl (ALTO)
+Triglicéridos: 195 mg/dl (ALTO)
+Hemoglobina: 13.8 g/dl
+Hematocrito: 41%
+Leucocitos: 6800 /μL
+Plaquetas: 275000 /μL
+Creatinina: 1.0 mg/dl
+Urea: 32 mg/dl
+
+ALERTA MÉDICA:
+- Deterioro significativo del control glucémico
+- Resistencia a la insulina evidente
+- Perfil lipídico alterado
+- Riesgo cardiovascular incrementado
+- Necesaria intervención inmediata
+
+RECOMENDACIONES URGENTES:
+- Consulta endocrinológica inmediata
+- Considerar medicación antidiabética
+- Dieta estricta supervisada
+- Control semanal inicialmente 

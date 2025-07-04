@@ -1,0 +1,36 @@
+LABORATORIO CLÍNICO SALUSCLOUD
+Fecha: 10 de diciembre de 2024
+Paciente: Demo User
+
+PERFIL TIROIDEO - CONTROL ANUAL
+
+TSH (Hormona Estimulante del Tiroides): 4.2 mUI/L ⚠️
+Rango normal: 0.4 - 4.0 mUI/L
+
+T4 Libre (Tiroxina libre): 0.9 ng/dL  
+Rango normal: 0.8 - 1.8 ng/dL
+
+T3 Libre (Triyodotironina libre): 2.4 pg/mL
+Rango normal: 2.3 - 4.2 pg/mL
+
+T4 Total: 6.5 μg/dL
+Rango normal: 5.0 - 12.0 μg/dL
+
+Anticuerpos anti-TPO: 18 UI/mL
+Rango normal: <35 UI/mL
+
+INTERPRETACIÓN:
+TSH ligeramente elevado por encima del límite superior normal (4.2 vs 4.0 mUI/L).
+T4 libre y T3 libre en límite inferior del rango normal.
+Esta combinación sugiere inicio de hipotiroidismo subclínico.
+
+TENDENCIA (últimos 12 meses):
+- Enero 2024: TSH 2.8 → Junio 2024: TSH 3.2 → Diciembre 2024: TSH 4.2
+- Progresión ascendente de TSH indica deterioro gradual de la función tiroidea
+
+Recomendaciones:
+⚠️ SEGUIMIENTO MÉDICO INMEDIATO
+- Repetir análisis en 6-8 semanas
+- Evaluar inicio de tratamiento con levotiroxina
+- Control nutricional (ingesta de yodo)
+- Seguimiento estrecho de síntomas

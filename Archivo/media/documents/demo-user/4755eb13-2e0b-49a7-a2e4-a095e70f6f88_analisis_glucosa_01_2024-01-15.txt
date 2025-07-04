@@ -1,0 +1,32 @@
+ANÁLISIS CLÍNICO - LABORATORIO MÉDICO CENTRAL
+Fecha: 15 de enero de 2024
+Paciente: Demo User
+ID: DEMO-001
+
+PERFIL METABÓLICO COMPLETO
+
+Glucosa en ayunas: 102 mg/dl (ALTO)
+HbA1c: 6.1% (PREDIABETES)
+Insulina: 8.5 mU/L
+Colesterol total: 195 mg/dl
+Colesterol HDL: 45 mg/dl
+Colesterol LDL: 125 mg/dl
+Triglicéridos: 165 mg/dl (ALTO)
+Hemoglobina: 14.1 g/dl
+Hematocrito: 42%
+Leucocitos: 6500 /μL
+Plaquetas: 285000 /μL
+Creatinina: 0.9 mg/dl
+Urea: 28 mg/dl
+
+INTERPRETACIÓN:
+- Glucosa ligeramente elevada sugiere prediabetes
+- HbA1c confirma control metabólico borderline
+- Perfil lipídico con triglicéridos elevados
+- Función renal normal
+- Hemograma dentro de rangos normales
+
+RECOMENDACIONES:
+- Control dietético estricto
+- Ejercicio regular
+- Seguimiento en 3 meses 

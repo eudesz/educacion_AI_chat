@@ -1,0 +1,1537 @@
+INFO 2025-06-12 22:05:01,017 autoreload 64871 8810225408 Watching for file changes with StatReloader
+INFO 2025-06-12 22:13:39,001 autoreload 67885 8810225408 Watching for file changes with StatReloader
+WARNING 2025-06-12 22:41:16,808 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:46:18,290 log 67885 6148780032 Unauthorized: /api/auth/login/
+WARNING 2025-06-13 06:51:02,495 log 67885 6131953664 Method Not Allowed (GET): /api/auth/login/
+WARNING 2025-06-13 06:51:14,886 log 67885 6148780032 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:51:14,895 log 67885 6148780032 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:51:20,863 log 67885 6131953664 Not Found: /api/agents/medical-message/
+WARNING 2025-06-13 06:51:45,605 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:52:15,616 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:52:45,614 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:53:15,611 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-13 06:53:45,604 log 67885 6131953664 Not Found: /api/rag/health/
+WARNING 2025-06-25 04:35:28,496 ai_service 11941 8413437696 OpenAI API key no configurada
+WARNING 2025-06-25 04:35:28,497 ai_service 11941 8413437696 Claude API key no configurada
+WARNING 2025-06-25 04:35:28,497 ai_service 11941 8413437696 OpenAI API key no configurada
+WARNING 2025-06-25 04:35:28,497 ai_service 11941 8413437696 Claude API key no configurada
+ERROR 2025-06-25 10:06:08,500 ai_service 1138 8413437696 Error inicializando cliente OpenAI: Client.__init__() got an unexpected keyword argument 'proxies'
+WARNING 2025-06-25 10:06:08,502 ai_service 1138 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:06:08,502 agent_manager 1138 8413437696 ✅ Tutor Agent inicializado
+ERROR 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Error inicializando cliente OpenAI: Client.__init__() got an unexpected keyword argument 'proxies'
+WARNING 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 ✅ Evaluator Agent inicializado
+ERROR 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Error inicializando cliente OpenAI: Client.__init__() got an unexpected keyword argument 'proxies'
+WARNING 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 ✅ Counselor Agent inicializado
+ERROR 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Error inicializando cliente OpenAI: Client.__init__() got an unexpected keyword argument 'proxies'
+WARNING 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 ✅ Curriculum Agent inicializado
+ERROR 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Error inicializando cliente OpenAI: Client.__init__() got an unexpected keyword argument 'proxies'
+WARNING 2025-06-25 10:06:08,503 ai_service 1138 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 Query routing: '¿Puedes ayudarme a estudiar matemáticas?...' -> tutor (score: 2.0)
+INFO 2025-06-25 10:06:08,503 agent_manager 1138 8413437696 Interacción procesada - Agente: tutor, Query: '¿Puedes ayudarme a estudiar matemáticas?...', Response time: 0.00s
+INFO 2025-06-25 10:08:14,905 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO 2025-06-25 10:08:14,910 _base_client 1721 8413437696 Retrying request to /chat/completions in 0.445486 seconds
+INFO 2025-06-25 10:08:17,675 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO 2025-06-25 10:08:17,678 _base_client 1721 8413437696 Retrying request to /chat/completions in 0.968981 seconds
+INFO 2025-06-25 10:08:19,480 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING 2025-06-25 10:08:20,273 ai_service 1721 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:08:20,274 agent_manager 1721 8413437696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:08:20,296 ai_service 1721 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:08:20,297 agent_manager 1721 8413437696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:08:20,315 ai_service 1721 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:08:20,316 agent_manager 1721 8413437696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:08:20,327 ai_service 1721 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:08:20,327 agent_manager 1721 8413437696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:08:20,346 ai_service 1721 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:08:20,354 agent_manager 1721 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:08:20,354 agent_manager 1721 8413437696 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:08:20,354 agent_manager 1721 8413437696 Query routing: '¿Puedes ayudarme a estudiar matemáticas?...' -> tutor (score: 2.0)
+INFO 2025-06-25 10:08:20,362 ai_service 1721 8413437696 Procesando consulta con OpenAI - Tokens: 672
+INFO 2025-06-25 10:08:20,894 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO 2025-06-25 10:08:20,907 _base_client 1721 8413437696 Retrying request to /chat/completions in 0.379975 seconds
+INFO 2025-06-25 10:08:21,653 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO 2025-06-25 10:08:21,655 _base_client 1721 8413437696 Retrying request to /chat/completions in 0.825255 seconds
+INFO 2025-06-25 10:08:22,846 _client 1721 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+ERROR 2025-06-25 10:08:22,849 ai_service 1721 8413437696 Error procesando consulta con OpenAI: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO 2025-06-25 10:08:22,849 agent_manager 1721 8413437696 Interacción procesada - Agente: tutor, Query: '¿Puedes ayudarme a estudiar matemáticas?...', Response time: 2.49s
+INFO 2025-06-25 10:09:24,156 _client 2027 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+WARNING 2025-06-25 10:09:24,386 ai_service 2027 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:09:24,386 agent_manager 2027 8413437696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:09:24,391 ai_service 2027 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:09:24,391 agent_manager 2027 8413437696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:09:24,396 ai_service 2027 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:09:24,396 agent_manager 2027 8413437696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:09:24,402 ai_service 2027 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:09:24,402 agent_manager 2027 8413437696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:09:24,408 ai_service 2027 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:09:24,408 agent_manager 2027 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:09:24,408 agent_manager 2027 8413437696 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:09:24,408 agent_manager 2027 8413437696 Query routing: '¿Puedes ayudarme a estudiar matemáticas?...' -> tutor (score: 2.0)
+INFO 2025-06-25 10:09:24,409 ai_service 2027 8413437696 Procesando consulta con OpenAI - Tokens: 672
+INFO 2025-06-25 10:09:27,537 _client 2027 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:09:27,580 ai_service 2027 8413437696 Consulta procesada exitosamente en 3.17s
+INFO 2025-06-25 10:09:27,580 agent_manager 2027 8413437696 Interacción procesada - Agente: tutor, Query: '¿Puedes ayudarme a estudiar matemáticas?...', Response time: 3.17s
+INFO 2025-06-25 10:13:41,127 autoreload 3992 8413437696 Watching for file changes with StatReloader
+WARNING 2025-06-25 10:13:58,249 log 3992 6156398592 Not Found: /
+WARNING 2025-06-25 10:13:59,610 log 3992 6156398592 Not Found: /favicon.ico
+WARNING 2025-06-25 10:17:26,680 ai_service 5135 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:26,681 agent_manager 5135 8413437696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:17:26,686 ai_service 5135 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:26,686 agent_manager 5135 8413437696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:17:26,691 ai_service 5135 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:26,691 agent_manager 5135 8413437696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:17:26,697 ai_service 5135 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:26,697 agent_manager 5135 8413437696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:17:26,702 ai_service 5135 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:26,702 agent_manager 5135 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:17:26,702 agent_manager 5135 8413437696 AgentManager inicializado con 5 agentes
+WARNING 2025-06-25 10:17:43,280 ai_service 5209 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:43,281 agent_manager 5209 8413437696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:17:43,286 ai_service 5209 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:43,286 agent_manager 5209 8413437696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:17:43,291 ai_service 5209 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:43,291 agent_manager 5209 8413437696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:17:43,296 ai_service 5209 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:43,296 agent_manager 5209 8413437696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:17:43,301 ai_service 5209 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:17:43,301 agent_manager 5209 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:17:43,301 agent_manager 5209 8413437696 AgentManager inicializado con 5 agentes
+WARNING 2025-06-25 10:18:08,783 ai_service 5321 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:18:08,783 agent_manager 5321 8413437696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:18:08,788 ai_service 5321 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:18:08,788 agent_manager 5321 8413437696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:18:08,793 ai_service 5321 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:18:08,793 agent_manager 5321 8413437696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:18:08,798 ai_service 5321 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:18:08,798 agent_manager 5321 8413437696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:18:08,802 ai_service 5321 8413437696 Claude API key no configurada
+INFO 2025-06-25 10:18:08,803 agent_manager 5321 8413437696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:18:08,803 agent_manager 5321 8413437696 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:18:08,803 agent_manager 5321 8413437696 Query routing: '¿Puedes explicarme qué es la 'entropía' de una for...' -> tutor (score: 1.0)
+INFO 2025-06-25 10:18:08,805 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 680
+INFO 2025-06-25 10:18:21,572 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:18:21,588 ai_service 5321 8413437696 Consulta procesada exitosamente en 12.79s
+INFO 2025-06-25 10:18:21,588 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: '¿Puedes explicarme qué es la 'entropía' de una for...', Response time: 12.79s
+INFO 2025-06-25 10:18:21,589 agent_manager 5321 8413437696 Query routing: 'Necesito 3 ejercicios de práctica sobre la ley de ...' -> tutor (score: 1.0)
+INFO 2025-06-25 10:18:21,593 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 678
+INFO 2025-06-25 10:18:32,683 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:18:32,702 ai_service 5321 8413437696 Consulta procesada exitosamente en 11.11s
+INFO 2025-06-25 10:18:32,703 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Necesito 3 ejercicios de práctica sobre la ley de ...', Response time: 11.11s
+INFO 2025-06-25 10:18:32,704 agent_manager 5321 8413437696 Query routing: 'Quiero que me hagas un quiz de 5 preguntas sobre l...' -> tutor (score: 1.0)
+INFO 2025-06-25 10:18:32,718 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 679
+INFO 2025-06-25 10:18:37,152 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:18:37,157 ai_service 5321 8413437696 Consulta procesada exitosamente en 4.45s
+INFO 2025-06-25 10:18:37,157 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Quiero que me hagas un quiz de 5 preguntas sobre l...', Response time: 4.45s
+INFO 2025-06-25 10:18:37,165 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 689
+INFO 2025-06-25 10:18:47,670 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:18:47,685 ai_service 5321 8413437696 Consulta procesada exitosamente en 10.53s
+INFO 2025-06-25 10:18:47,686 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Creo que ya entiendo la diferencia entre 'mitosis'...', Response time: 10.53s
+INFO 2025-06-25 10:18:47,686 agent_manager 5321 8413437696 Query routing: 'Me cuesta mucho concentrarme cuando estudio en cas...' -> counselor (score: 0.5)
+INFO 2025-06-25 10:18:47,690 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 1051
+INFO 2025-06-25 10:18:56,911 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:18:56,926 ai_service 5321 8413437696 Consulta procesada exitosamente en 9.24s
+INFO 2025-06-25 10:18:56,926 agent_manager 5321 8413437696 Interacción procesada - Agente: counselor, Query: 'Me cuesta mucho concentrarme cuando estudio en cas...', Response time: 9.24s
+INFO 2025-06-25 10:18:56,927 agent_manager 5321 8413437696 Query routing: 'Estoy sintiendo mucha ansiedad por los próximos ex...' -> counselor (score: 0.5)
+INFO 2025-06-25 10:18:56,933 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 1057
+INFO 2025-06-25 10:19:07,726 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:19:07,731 ai_service 5321 8413437696 Consulta procesada exitosamente en 10.80s
+INFO 2025-06-25 10:19:07,732 agent_manager 5321 8413437696 Interacción procesada - Agente: counselor, Query: 'Estoy sintiendo mucha ansiedad por los próximos ex...', Response time: 10.80s
+INFO 2025-06-25 10:19:07,732 agent_manager 5321 8413437696 Query routing: 'Quiero aprender los conceptos básicos de la inteli...' -> tutor (score: 2.0)
+INFO 2025-06-25 10:19:07,742 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 687
+INFO 2025-06-25 10:19:28,224 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:19:28,240 ai_service 5321 8413437696 Consulta procesada exitosamente en 20.51s
+INFO 2025-06-25 10:19:28,241 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Quiero aprender los conceptos básicos de la inteli...', Response time: 20.51s
+INFO 2025-06-25 10:19:28,241 agent_manager 5321 8413437696 Query routing: '¿Cuál sería la estructura ideal para una presentac...' -> curriculum (score: 0.3333333333333333)
+INFO 2025-06-25 10:19:28,252 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 973
+INFO 2025-06-25 10:19:41,948 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:19:41,963 ai_service 5321 8413437696 Consulta procesada exitosamente en 13.72s
+INFO 2025-06-25 10:19:41,963 agent_manager 5321 8413437696 Interacción procesada - Agente: curriculum, Query: '¿Cuál sería la estructura ideal para una presentac...', Response time: 13.72s
+INFO 2025-06-25 10:19:41,963 agent_manager 5321 8413437696 Query routing: 'Basado en mis conversaciones anteriores, ¿en qué t...' -> tutor (score: 1.0)
+INFO 2025-06-25 10:19:41,969 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 684
+INFO 2025-06-25 10:19:49,657 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:19:49,661 ai_service 5321 8413437696 Consulta procesada exitosamente en 7.70s
+INFO 2025-06-25 10:19:49,661 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Basado en mis conversaciones anteriores, ¿en qué t...', Response time: 7.70s
+INFO 2025-06-25 10:19:49,662 agent_manager 5321 8413437696 Query routing: 'Después de explicarme la Primera Guerra Mundial, c...' -> tutor (score: 1.0)
+INFO 2025-06-25 10:19:49,662 ai_service 5321 8413437696 Procesando consulta con OpenAI - Tokens: 697
+INFO 2025-06-25 10:20:07,406 _client 5321 8413437696 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:20:07,414 ai_service 5321 8413437696 Consulta procesada exitosamente en 17.75s
+INFO 2025-06-25 10:20:07,415 agent_manager 5321 8413437696 Interacción procesada - Agente: tutor, Query: 'Después de explicarme la Primera Guerra Mundial, c...', Response time: 17.75s
+INFO 2025-06-25 10:21:22,119 autoreload 3992 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 10:21:23,984 autoreload 6081 8413437696 Watching for file changes with StatReloader
+WARNING 2025-06-25 10:26:32,671 ai_service 6081 6195015680 Claude API key no configurada
+INFO 2025-06-25 10:26:32,672 agent_manager 6081 6195015680 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:26:32,681 ai_service 6081 6195015680 Claude API key no configurada
+INFO 2025-06-25 10:26:32,681 agent_manager 6081 6195015680 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:26:32,688 ai_service 6081 6195015680 Claude API key no configurada
+INFO 2025-06-25 10:26:32,688 agent_manager 6081 6195015680 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:26:32,693 ai_service 6081 6195015680 Claude API key no configurada
+INFO 2025-06-25 10:26:32,693 agent_manager 6081 6195015680 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:26:32,700 ai_service 6081 6195015680 Claude API key no configurada
+INFO 2025-06-25 10:26:32,700 agent_manager 6081 6195015680 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:26:32,700 agent_manager 6081 6195015680 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:26:32,776 SentenceTransformer 6081 6195015680 Use pytorch device_name: mps
+INFO 2025-06-25 10:26:32,776 SentenceTransformer 6081 6195015680 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:26:37,288 enhanced_rag 6081 6195015680 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:26:38,204 enhanced_rag 6081 6195015680 ChromaDB inicializado en: ./chroma_db
+WARNING 2025-06-25 10:26:38,207 log 6081 6195015680 Forbidden: /api/agents/chat/
+WARNING 2025-06-25 10:26:55,113 ai_service 6081 14157213696 Claude API key no configurada
+INFO 2025-06-25 10:26:55,113 agent_manager 6081 14157213696 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:26:55,122 ai_service 6081 14157213696 Claude API key no configurada
+INFO 2025-06-25 10:26:55,122 agent_manager 6081 14157213696 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:26:55,129 ai_service 6081 14157213696 Claude API key no configurada
+INFO 2025-06-25 10:26:55,129 agent_manager 6081 14157213696 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:26:55,134 ai_service 6081 14157213696 Claude API key no configurada
+INFO 2025-06-25 10:26:55,135 agent_manager 6081 14157213696 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:26:55,141 ai_service 6081 14157213696 Claude API key no configurada
+INFO 2025-06-25 10:26:55,141 agent_manager 6081 14157213696 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:26:55,142 agent_manager 6081 14157213696 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:26:55,145 SentenceTransformer 6081 14157213696 Use pytorch device_name: mps
+INFO 2025-06-25 10:26:55,145 SentenceTransformer 6081 14157213696 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:26:57,976 enhanced_rag 6081 14157213696 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:26:58,044 enhanced_rag 6081 14157213696 ChromaDB inicializado en: ./chroma_db
+WARNING 2025-06-25 10:26:58,068 log 6081 14157213696 Forbidden: /api/agents/chat/
+INFO 2025-06-25 10:27:32,774 autoreload 6081 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/backend_project/settings.py changed, reloading.
+INFO 2025-06-25 10:27:35,045 autoreload 7501 8413437696 Watching for file changes with StatReloader
+WARNING 2025-06-25 10:27:53,932 ai_service 7501 6168178688 Claude API key no configurada
+INFO 2025-06-25 10:27:53,932 agent_manager 7501 6168178688 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:27:53,938 ai_service 7501 6168178688 Claude API key no configurada
+INFO 2025-06-25 10:27:53,938 agent_manager 7501 6168178688 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:27:53,945 ai_service 7501 6168178688 Claude API key no configurada
+INFO 2025-06-25 10:27:53,946 agent_manager 7501 6168178688 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:27:53,954 ai_service 7501 6168178688 Claude API key no configurada
+INFO 2025-06-25 10:27:53,954 agent_manager 7501 6168178688 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:27:53,961 ai_service 7501 6168178688 Claude API key no configurada
+INFO 2025-06-25 10:27:53,961 agent_manager 7501 6168178688 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:27:53,961 agent_manager 7501 6168178688 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:27:54,012 SentenceTransformer 7501 6168178688 Use pytorch device_name: mps
+INFO 2025-06-25 10:27:54,012 SentenceTransformer 7501 6168178688 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:27:57,332 enhanced_rag 7501 6168178688 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:27:57,566 enhanced_rag 7501 6168178688 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 10:27:57,567 conversation_memory 7501 6168178688 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 10:27:57,571 conversation_memory 7501 6168178688 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:28:00,767 enhanced_rag 7501 6168178688 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 10:28:00,769 conversation_memory 7501 6168178688 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:28:00,781 ai_service 7501 6168178688 Procesando consulta con OpenAI - Tokens: 689
+INFO 2025-06-25 10:28:07,050 _client 7501 6168178688 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:28:07,062 ai_service 7501 6168178688 Consulta procesada exitosamente en 6.29s
+INFO 2025-06-25 10:28:07,063 agent_manager 7501 6168178688 Interacción procesada - Agente: tutor, Query: 'expicame la suma ...', Response time: 6.29s
+ERROR 2025-06-25 10:28:07,064 conversation_memory 7501 6168178688 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 10:28:07,065 conversation_memory 7501 6168178688 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:50:51,960 SentenceTransformer 7501 14195650560 Use pytorch device_name: mps
+INFO 2025-06-25 10:50:51,962 SentenceTransformer 7501 14195650560 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:50:55,525 enhanced_rag 7501 14195650560 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:50:55,618 enhanced_rag 7501 14195650560 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 10:51:04,399 enhanced_rag 7501 14195650560 Documento procesado: doc_20250625_105103 - 1164 chunks para usuario default-user
+WARNING 2025-06-25 10:51:38,759 ai_service 7501 14229204992 Claude API key no configurada
+INFO 2025-06-25 10:51:38,763 agent_manager 7501 14229204992 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:51:38,775 ai_service 7501 14229204992 Claude API key no configurada
+INFO 2025-06-25 10:51:38,775 agent_manager 7501 14229204992 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:51:38,784 ai_service 7501 14229204992 Claude API key no configurada
+INFO 2025-06-25 10:51:38,784 agent_manager 7501 14229204992 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:51:38,792 ai_service 7501 14229204992 Claude API key no configurada
+INFO 2025-06-25 10:51:38,792 agent_manager 7501 14229204992 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:51:38,798 ai_service 7501 14229204992 Claude API key no configurada
+INFO 2025-06-25 10:51:38,798 agent_manager 7501 14229204992 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:51:38,798 agent_manager 7501 14229204992 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:51:38,800 SentenceTransformer 7501 14229204992 Use pytorch device_name: mps
+INFO 2025-06-25 10:51:38,800 SentenceTransformer 7501 14229204992 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:51:41,925 enhanced_rag 7501 14229204992 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:51:42,015 enhanced_rag 7501 14229204992 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 10:51:42,035 conversation_memory 7501 14229204992 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 10:51:42,042 conversation_memory 7501 14229204992 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:51:43,032 enhanced_rag 7501 14229204992 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 10:51:43,037 conversation_memory 7501 14229204992 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:51:43,077 ai_service 7501 14229204992 Procesando consulta con OpenAI - Tokens: 706
+INFO 2025-06-25 10:51:51,970 _client 7501 14229204992 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:51:52,030 ai_service 7501 14229204992 Consulta procesada exitosamente en 8.99s
+INFO 2025-06-25 10:51:52,030 agent_manager 7501 14229204992 Interacción procesada - Agente: tutor, Query: 'Cuál es el propósito principal de la Guía Docente ...', Response time: 8.99s
+ERROR 2025-06-25 10:51:52,031 conversation_memory 7501 14229204992 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 10:51:52,033 conversation_memory 7501 14229204992 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 10:57:11,733 ai_service 7501 14250225664 Claude API key no configurada
+INFO 2025-06-25 10:57:11,736 agent_manager 7501 14250225664 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 10:57:11,747 ai_service 7501 14250225664 Claude API key no configurada
+INFO 2025-06-25 10:57:11,747 agent_manager 7501 14250225664 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 10:57:11,755 ai_service 7501 14250225664 Claude API key no configurada
+INFO 2025-06-25 10:57:11,755 agent_manager 7501 14250225664 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 10:57:11,762 ai_service 7501 14250225664 Claude API key no configurada
+INFO 2025-06-25 10:57:11,762 agent_manager 7501 14250225664 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 10:57:11,768 ai_service 7501 14250225664 Claude API key no configurada
+INFO 2025-06-25 10:57:11,768 agent_manager 7501 14250225664 ✅ Analytics Agent inicializado
+INFO 2025-06-25 10:57:11,769 agent_manager 7501 14250225664 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 10:57:11,772 SentenceTransformer 7501 14250225664 Use pytorch device_name: mps
+INFO 2025-06-25 10:57:11,772 SentenceTransformer 7501 14250225664 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 10:57:14,790 enhanced_rag 7501 14250225664 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 10:57:14,832 enhanced_rag 7501 14250225664 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 10:57:14,833 conversation_memory 7501 14250225664 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 10:57:14,835 conversation_memory 7501 14250225664 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:57:15,541 enhanced_rag 7501 14250225664 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 10:57:15,541 conversation_memory 7501 14250225664 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 10:57:15,552 ai_service 7501 14250225664 Procesando consulta con OpenAI - Tokens: 691
+INFO 2025-06-25 10:57:22,342 _client 7501 14250225664 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 10:57:22,347 ai_service 7501 14250225664 Consulta procesada exitosamente en 6.81s
+INFO 2025-06-25 10:57:22,347 agent_manager 7501 14250225664 Interacción procesada - Agente: tutor, Query: 'de que trata la clase 1?...', Response time: 6.81s
+ERROR 2025-06-25 10:57:22,348 conversation_memory 7501 14250225664 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 10:57:22,348 conversation_memory 7501 14250225664 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 11:00:31,240 ai_service 7501 14245982208 Claude API key no configurada
+INFO 2025-06-25 11:00:31,242 agent_manager 7501 14245982208 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 11:00:31,267 ai_service 7501 14245982208 Claude API key no configurada
+INFO 2025-06-25 11:00:31,267 agent_manager 7501 14245982208 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 11:00:31,292 ai_service 7501 14245982208 Claude API key no configurada
+INFO 2025-06-25 11:00:31,292 agent_manager 7501 14245982208 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 11:00:31,301 ai_service 7501 14245982208 Claude API key no configurada
+INFO 2025-06-25 11:00:31,302 agent_manager 7501 14245982208 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 11:00:31,309 ai_service 7501 14245982208 Claude API key no configurada
+INFO 2025-06-25 11:00:31,310 agent_manager 7501 14245982208 ✅ Analytics Agent inicializado
+INFO 2025-06-25 11:00:31,311 agent_manager 7501 14245982208 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 11:00:31,320 SentenceTransformer 7501 14245982208 Use pytorch device_name: mps
+INFO 2025-06-25 11:00:31,320 SentenceTransformer 7501 14245982208 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:00:34,984 enhanced_rag 7501 14245982208 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:00:35,048 enhanced_rag 7501 14245982208 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:00:35,052 conversation_memory 7501 14245982208 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 11:00:35,055 conversation_memory 7501 14245982208 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:00:35,928 enhanced_rag 7501 14245982208 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 11:00:35,929 conversation_memory 7501 14245982208 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:00:35,951 ai_service 7501 14245982208 Procesando consulta con OpenAI - Tokens: 693
+INFO 2025-06-25 11:00:38,956 _client 7501 14245982208 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 11:00:38,983 ai_service 7501 14245982208 Consulta procesada exitosamente en 3.05s
+INFO 2025-06-25 11:00:38,983 agent_manager 7501 14245982208 Interacción procesada - Agente: tutor, Query: 'Necesito ayuda con Matemáticas...', Response time: 3.05s
+ERROR 2025-06-25 11:00:38,984 conversation_memory 7501 14245982208 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 11:00:38,985 conversation_memory 7501 14245982208 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 11:01:16,202 ai_service 7501 14393110528 Claude API key no configurada
+INFO 2025-06-25 11:01:16,203 agent_manager 7501 14393110528 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 11:01:16,211 ai_service 7501 14393110528 Claude API key no configurada
+INFO 2025-06-25 11:01:16,212 agent_manager 7501 14393110528 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 11:01:16,224 ai_service 7501 14393110528 Claude API key no configurada
+INFO 2025-06-25 11:01:16,225 agent_manager 7501 14393110528 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 11:01:16,233 ai_service 7501 14393110528 Claude API key no configurada
+INFO 2025-06-25 11:01:16,233 agent_manager 7501 14393110528 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 11:01:16,239 ai_service 7501 14393110528 Claude API key no configurada
+INFO 2025-06-25 11:01:16,240 agent_manager 7501 14393110528 ✅ Analytics Agent inicializado
+INFO 2025-06-25 11:01:16,240 agent_manager 7501 14393110528 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 11:01:16,241 SentenceTransformer 7501 14393110528 Use pytorch device_name: mps
+INFO 2025-06-25 11:01:16,241 SentenceTransformer 7501 14393110528 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:01:19,026 enhanced_rag 7501 14393110528 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:01:19,061 enhanced_rag 7501 14393110528 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:01:19,063 conversation_memory 7501 14393110528 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 11:01:19,065 conversation_memory 7501 14393110528 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:01:19,667 enhanced_rag 7501 14393110528 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 11:01:19,667 conversation_memory 7501 14393110528 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:01:19,676 ai_service 7501 14393110528 Procesando consulta con OpenAI - Tokens: 690
+INFO 2025-06-25 11:01:21,249 _client 7501 14393110528 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 11:01:21,257 ai_service 7501 14393110528 Consulta procesada exitosamente en 1.59s
+INFO 2025-06-25 11:01:21,258 agent_manager 7501 14393110528 Interacción procesada - Agente: tutor, Query: 'Hola, me llamo Juan....', Response time: 1.59s
+ERROR 2025-06-25 11:01:21,260 conversation_memory 7501 14393110528 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 11:01:21,261 conversation_memory 7501 14393110528 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 11:01:25,514 ai_service 7501 14427385856 Claude API key no configurada
+INFO 2025-06-25 11:01:25,514 agent_manager 7501 14427385856 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 11:01:25,525 ai_service 7501 14427385856 Claude API key no configurada
+INFO 2025-06-25 11:01:25,525 agent_manager 7501 14427385856 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 11:01:25,532 ai_service 7501 14427385856 Claude API key no configurada
+INFO 2025-06-25 11:01:25,532 agent_manager 7501 14427385856 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 11:01:25,538 ai_service 7501 14427385856 Claude API key no configurada
+INFO 2025-06-25 11:01:25,539 agent_manager 7501 14427385856 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 11:01:25,546 ai_service 7501 14427385856 Claude API key no configurada
+INFO 2025-06-25 11:01:25,546 agent_manager 7501 14427385856 ✅ Analytics Agent inicializado
+INFO 2025-06-25 11:01:25,546 agent_manager 7501 14427385856 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 11:01:25,547 SentenceTransformer 7501 14427385856 Use pytorch device_name: mps
+INFO 2025-06-25 11:01:25,547 SentenceTransformer 7501 14427385856 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:01:28,117 enhanced_rag 7501 14427385856 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:01:28,126 enhanced_rag 7501 14427385856 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:01:28,129 conversation_memory 7501 14427385856 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 11:01:28,131 conversation_memory 7501 14427385856 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:01:28,584 enhanced_rag 7501 14427385856 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 11:01:28,585 conversation_memory 7501 14427385856 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:01:28,588 ai_service 7501 14427385856 Procesando consulta con OpenAI - Tokens: 688
+INFO 2025-06-25 11:01:31,275 _client 7501 14427385856 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 11:01:31,277 ai_service 7501 14427385856 Consulta procesada exitosamente en 2.69s
+INFO 2025-06-25 11:01:31,277 agent_manager 7501 14427385856 Interacción procesada - Agente: tutor, Query: 'como me llamo?...', Response time: 2.69s
+ERROR 2025-06-25 11:01:31,278 conversation_memory 7501 14427385856 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 11:01:31,279 conversation_memory 7501 14427385856 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 11:15:49,012 log 7501 14448406528 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:15:50,079 log 7501 14427385856 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:15:51,127 log 7501 14448406528 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:15:52,291 log 7501 14465232896 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:15:53,430 log 7501 14482059264 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:16:08,510 log 7501 14498885632 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:16:09,563 log 7501 14515712000 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:16:10,597 log 7501 14532538368 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:16:11,738 log 7501 14549364736 Bad Request: /api/agents/upload-file/
+WARNING 2025-06-25 11:16:12,859 log 7501 14566191104 Bad Request: /api/agents/upload-file/
+INFO 2025-06-25 11:16:34,895 autoreload 7501 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:16:39,601 autoreload 19006 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:17:31,847 autoreload 19006 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:17:33,113 autoreload 19217 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:17:54,793 autoreload 19217 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:17:56,049 autoreload 19321 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:18:48,715 autoreload 19813 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:19:11,085 autoreload 19321 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:19:11,816 autoreload 19813 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:19:12,743 autoreload 19920 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:19:12,951 autoreload 19921 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:19:17,960 autoreload 19959 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:19:23,028 SentenceTransformer 19920 6350843904 Use pytorch device_name: mps
+INFO 2025-06-25 11:19:23,028 SentenceTransformer 19920 6350843904 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:26,169 enhanced_rag 19920 6350843904 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:26,469 enhanced_rag 19920 6350843904 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:19:31,328 enhanced_rag 19920 6350843904 Documento procesado: doc_20250625_111930 - 609 chunks para usuario default-user
+INFO 2025-06-25 11:19:32,767 SentenceTransformer 19920 14559506432 Use pytorch device_name: mps
+INFO 2025-06-25 11:19:32,767 SentenceTransformer 19920 14559506432 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:35,894 enhanced_rag 19920 14559506432 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:35,940 enhanced_rag 19920 14559506432 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:19:39,900 enhanced_rag 19920 14559506432 Documento procesado: doc_20250625_111939 - 585 chunks para usuario default-user
+INFO 2025-06-25 11:19:41,119 SentenceTransformer 19920 14731472896 Use pytorch device_name: mps
+INFO 2025-06-25 11:19:41,119 SentenceTransformer 19920 14731472896 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:44,249 enhanced_rag 19920 14731472896 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:44,268 enhanced_rag 19920 14731472896 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:19:45,093 enhanced_rag 19920 14731472896 Documento procesado: doc_20250625_111945 - 107 chunks para usuario default-user
+INFO 2025-06-25 11:19:47,100 SentenceTransformer 19920 14563700736 Use pytorch device_name: mps
+INFO 2025-06-25 11:19:47,100 SentenceTransformer 19920 14563700736 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:50,059 enhanced_rag 19920 14563700736 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:50,065 enhanced_rag 19920 14563700736 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:19:51,102 enhanced_rag 19920 14563700736 Documento procesado: doc_20250625_111950 - 122 chunks para usuario default-user
+INFO 2025-06-25 11:19:53,098 SentenceTransformer 19920 12924776448 Use pytorch device_name: mps
+INFO 2025-06-25 11:19:53,098 SentenceTransformer 19920 12924776448 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:56,158 enhanced_rag 19920 12924776448 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:19:56,175 enhanced_rag 19920 12924776448 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:19:56,807 enhanced_rag 19920 12924776448 Documento procesado: doc_20250625_111956 - 122 chunks para usuario default-user
+WARNING 2025-06-25 11:24:28,276 ai_service 19920 14731472896 Claude API key no configurada
+INFO 2025-06-25 11:24:28,278 agent_manager 19920 14731472896 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 11:24:28,283 ai_service 19920 14731472896 Claude API key no configurada
+INFO 2025-06-25 11:24:28,284 agent_manager 19920 14731472896 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 11:24:28,289 ai_service 19920 14731472896 Claude API key no configurada
+INFO 2025-06-25 11:24:28,289 agent_manager 19920 14731472896 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 11:24:28,295 ai_service 19920 14731472896 Claude API key no configurada
+INFO 2025-06-25 11:24:28,295 agent_manager 19920 14731472896 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 11:24:28,304 ai_service 19920 14731472896 Claude API key no configurada
+INFO 2025-06-25 11:24:28,304 agent_manager 19920 14731472896 ✅ Analytics Agent inicializado
+INFO 2025-06-25 11:24:28,304 agent_manager 19920 14731472896 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 11:24:28,314 SentenceTransformer 19920 14731472896 Use pytorch device_name: mps
+INFO 2025-06-25 11:24:28,315 SentenceTransformer 19920 14731472896 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:24:34,580 enhanced_rag 19920 14731472896 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:24:34,631 enhanced_rag 19920 14731472896 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:24:34,641 conversation_memory 19920 14731472896 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 11:24:34,644 conversation_memory 19920 14731472896 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:24:35,065 enhanced_rag 19920 14731472896 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 11:24:35,066 conversation_memory 19920 14731472896 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:24:35,066 agent_manager 19920 14731472896 Query routing: 'Resume los objetivos del Módulo 1 para primer grad...' -> curriculum (score: 0.3333333333333333)
+INFO 2025-06-25 11:24:35,071 ai_service 19920 14731472896 Procesando consulta con OpenAI - Tokens: 989
+INFO 2025-06-25 11:24:45,829 _client 19920 14731472896 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 11:24:45,849 ai_service 19920 14731472896 Consulta procesada exitosamente en 10.78s
+INFO 2025-06-25 11:24:45,852 agent_manager 19920 14731472896 Interacción procesada - Agente: curriculum, Query: 'Resume los objetivos del Módulo 1 para primer grad...', Response time: 10.79s
+INFO 2025-06-25 11:24:45,853 conversation_memory 19920 14731472896 ConversationMemory inicializada para maría-gonzález/curriculum
+ERROR 2025-06-25 11:24:45,855 conversation_memory 19920 14731472896 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 11:24:45,857 conversation_memory 19920 14731472896 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-06-25 11:25:19,254 ai_service 19920 14763978752 Claude API key no configurada
+INFO 2025-06-25 11:25:19,256 agent_manager 19920 14763978752 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 11:25:19,267 ai_service 19920 14763978752 Claude API key no configurada
+INFO 2025-06-25 11:25:19,267 agent_manager 19920 14763978752 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 11:25:19,275 ai_service 19920 14763978752 Claude API key no configurada
+INFO 2025-06-25 11:25:19,275 agent_manager 19920 14763978752 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 11:25:19,283 ai_service 19920 14763978752 Claude API key no configurada
+INFO 2025-06-25 11:25:19,283 agent_manager 19920 14763978752 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 11:25:19,291 ai_service 19920 14763978752 Claude API key no configurada
+INFO 2025-06-25 11:25:19,291 agent_manager 19920 14763978752 ✅ Analytics Agent inicializado
+INFO 2025-06-25 11:25:19,291 agent_manager 19920 14763978752 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 11:25:19,294 SentenceTransformer 19920 14763978752 Use pytorch device_name: mps
+INFO 2025-06-25 11:25:19,294 SentenceTransformer 19920 14763978752 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 11:25:22,710 enhanced_rag 19920 14763978752 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 11:25:22,734 enhanced_rag 19920 14763978752 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 11:25:22,736 conversation_memory 19920 14763978752 ConversationMemory inicializada para maría-gonzález/tutor
+ERROR 2025-06-25 11:25:22,737 conversation_memory 19920 14763978752 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:25:22,911 enhanced_rag 19920 14763978752 No se encontraron documentos para el usuario maría-gonzález
+ERROR 2025-06-25 11:25:22,912 conversation_memory 19920 14763978752 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:25:22,912 agent_manager 19920 14763978752 Query routing: 'Explica un concepto clave del Módulo 3 para primer...' -> tutor (score: 1.0)
+INFO 2025-06-25 11:25:22,920 ai_service 19920 14763978752 Procesando consulta con OpenAI - Tokens: 699
+INFO 2025-06-25 11:25:28,949 _client 19920 14763978752 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 11:25:28,972 ai_service 19920 14763978752 Consulta procesada exitosamente en 6.06s
+INFO 2025-06-25 11:25:28,972 agent_manager 19920 14763978752 Interacción procesada - Agente: tutor, Query: 'Explica un concepto clave del Módulo 3 para primer...', Response time: 6.06s
+ERROR 2025-06-25 11:25:28,974 conversation_memory 19920 14763978752 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 11:25:28,974 conversation_memory 19920 14763978752 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 11:37:01,413 autoreload 19920 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/backend_project/urls.py changed, reloading.
+INFO 2025-06-25 11:37:04,552 autoreload 23983 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:40:24,890 autoreload 23983 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-06-25 11:40:25,975 autoreload 24927 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 11:40:59,367 autoreload 24927 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/ai_service.py changed, reloading.
+INFO 2025-06-25 11:41:00,590 autoreload 25050 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:01:21,098 autoreload 25050 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-06-25 12:01:22,711 autoreload 30836 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:01:43,986 autoreload 30836 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-06-25 12:01:45,697 autoreload 30998 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:01:52,952 autoreload 30998 8413437696 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/urls.py changed, reloading.
+INFO 2025-06-25 12:01:53,820 autoreload 31063 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:05:19,116 autoreload 32216 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:08:13,149 autoreload 33225 8413437696 Watching for file changes with StatReloader
+WARNING 2025-06-25 12:11:07,576 ai_service 33225 6171455488 Claude API key no configurada
+INFO 2025-06-25 12:11:07,577 agent_manager 33225 6171455488 ✅ Tutor Agent inicializado
+WARNING 2025-06-25 12:11:07,582 ai_service 33225 6171455488 Claude API key no configurada
+INFO 2025-06-25 12:11:07,582 agent_manager 33225 6171455488 ✅ Evaluator Agent inicializado
+WARNING 2025-06-25 12:11:07,591 ai_service 33225 6171455488 Claude API key no configurada
+INFO 2025-06-25 12:11:07,591 agent_manager 33225 6171455488 ✅ Counselor Agent inicializado
+WARNING 2025-06-25 12:11:07,597 ai_service 33225 6171455488 Claude API key no configurada
+INFO 2025-06-25 12:11:07,597 agent_manager 33225 6171455488 ✅ Curriculum Agent inicializado
+WARNING 2025-06-25 12:11:07,605 ai_service 33225 6171455488 Claude API key no configurada
+INFO 2025-06-25 12:11:07,605 agent_manager 33225 6171455488 ✅ Analytics Agent inicializado
+INFO 2025-06-25 12:11:07,605 agent_manager 33225 6171455488 AgentManager inicializado con 5 agentes
+INFO 2025-06-25 12:11:07,670 SentenceTransformer 33225 6171455488 Use pytorch device_name: mps
+INFO 2025-06-25 12:11:07,682 SentenceTransformer 33225 6171455488 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-06-25 12:11:11,108 enhanced_rag 33225 6171455488 Modelo de embeddings cargado: all-MiniLM-L6-v2
+INFO 2025-06-25 12:11:12,137 enhanced_rag 33225 6171455488 ChromaDB inicializado en: ./chroma_db
+INFO 2025-06-25 12:11:12,139 conversation_memory 33225 6171455488 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-06-25 12:11:12,149 conversation_memory 33225 6171455488 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 12:11:12,694 enhanced_rag 33225 6171455488 No se encontraron documentos para el usuario demo-user
+ERROR 2025-06-25 12:11:12,695 conversation_memory 33225 6171455488 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 12:11:12,695 agent_manager 33225 6171455488 Query routing: 'Resume los objetivos de la guía de 1er Grado...' -> curriculum (score: 0.3333333333333333)
+INFO 2025-06-25 12:11:12,701 ai_service 33225 6171455488 Procesando consulta con OpenAI - Tokens: 990
+INFO 2025-06-25 12:11:24,687 _client 33225 6171455488 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 12:11:24,702 ai_service 33225 6171455488 Consulta procesada exitosamente en 12.01s
+INFO 2025-06-25 12:11:24,703 agent_manager 33225 6171455488 Interacción procesada - Agente: curriculum, Query: 'Resume los objetivos de la guía de 1er Grado...', Response time: 12.01s
+INFO 2025-06-25 12:11:24,704 conversation_memory 33225 6171455488 ConversationMemory inicializada para demo-user/curriculum
+ERROR 2025-06-25 12:11:24,707 conversation_memory 33225 6171455488 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-06-25 12:11:24,707 conversation_memory 33225 6171455488 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-06-25 12:26:14,050 autoreload 41476 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:30:44,200 autoreload 43251 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:31:48,399 autoreload 43771 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-25 12:34:45,505 autoreload 45080 8413437696 Watching for file changes with StatReloader
+INFO 2025-06-30 13:05:43,157 autoreload 71436 8413437696 Watching for file changes with StatReloader
+WARNING 2025-06-30 13:05:53,894 log 71436 6325039104 Not Found: /agents/health/
+WARNING 2025-06-30 13:06:03,025 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:03,025 agent_manager 71436 12901707776 ✅ Tutor Agent inicializado
+WARNING 2025-06-30 13:06:03,030 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:03,030 agent_manager 71436 12901707776 ✅ Evaluator Agent inicializado
+WARNING 2025-06-30 13:06:03,034 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:03,034 agent_manager 71436 12901707776 ✅ Counselor Agent inicializado
+WARNING 2025-06-30 13:06:03,038 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:03,038 agent_manager 71436 12901707776 ✅ Curriculum Agent inicializado
+WARNING 2025-06-30 13:06:03,043 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:03,043 agent_manager 71436 12901707776 ✅ Analytics Agent inicializado
+INFO 2025-06-30 13:06:03,043 agent_manager 71436 12901707776 AgentManager inicializado con 5 agentes
+WARNING 2025-06-30 13:06:23,383 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:23,383 agent_manager 71436 12901707776 ✅ Tutor Agent inicializado
+WARNING 2025-06-30 13:06:23,388 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:23,388 agent_manager 71436 12901707776 ✅ Evaluator Agent inicializado
+WARNING 2025-06-30 13:06:23,394 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:23,394 agent_manager 71436 12901707776 ✅ Counselor Agent inicializado
+WARNING 2025-06-30 13:06:23,400 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:23,401 agent_manager 71436 12901707776 ✅ Curriculum Agent inicializado
+WARNING 2025-06-30 13:06:23,410 ai_service 71436 12901707776 Claude API key no configurada
+INFO 2025-06-30 13:06:23,410 agent_manager 71436 12901707776 ✅ Analytics Agent inicializado
+INFO 2025-06-30 13:06:23,410 agent_manager 71436 12901707776 AgentManager inicializado con 5 agentes
+WARNING 2025-06-30 13:06:24,715 log 71436 12901707776 Not Found: /favicon.ico
+INFO 2025-07-01 06:26:13,181 autoreload 19152 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 06:37:17,271 autoreload 24987 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 06:38:05,208 log 24987 6200193024 Not Found: /
+INFO 2025-07-01 06:39:16,352 autoreload 26517 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 06:39:30,748 autoreload 26930 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 06:51:11,663 autoreload 30963 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 07:02:08,548 ai_service 30963 6195884032 Claude API key no configurada
+INFO 2025-07-01 07:02:08,550 agent_manager 30963 6195884032 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:02:08,554 ai_service 30963 6195884032 Claude API key no configurada
+INFO 2025-07-01 07:02:08,555 agent_manager 30963 6195884032 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:02:08,559 ai_service 30963 6195884032 Claude API key no configurada
+INFO 2025-07-01 07:02:08,559 agent_manager 30963 6195884032 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:02:08,564 ai_service 30963 6195884032 Claude API key no configurada
+INFO 2025-07-01 07:02:08,564 agent_manager 30963 6195884032 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:02:08,568 ai_service 30963 6195884032 Claude API key no configurada
+INFO 2025-07-01 07:02:08,568 agent_manager 30963 6195884032 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:02:08,568 agent_manager 30963 6195884032 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:02:08,603 SentenceTransformer 30963 6195884032 Use pytorch device_name: mps
+INFO 2025-07-01 07:02:08,603 SentenceTransformer 30963 6195884032 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:02:13,874 enhanced_rag 30963 6195884032 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:02:14,656 posthog 30963 6195884032 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:02:14,656 enhanced_rag 30963 6195884032 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:02:14,659 conversation_memory 30963 6195884032 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:02:14,661 conversation_memory 30963 6195884032 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:02:14,872 enhanced_rag 30963 6195884032 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:02:14,873 conversation_memory 30963 6195884032 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:02:14,873 agent_manager 30963 6195884032 Query routing: 'Resume los objetivos de la guía de 1er Grado...' -> curriculum (score: 0.3333333333333333)
+INFO 2025-07-01 07:02:14,876 ai_service 30963 6195884032 Procesando consulta con OpenAI - Tokens: 990
+INFO 2025-07-01 07:02:27,385 _client 30963 6195884032 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:02:27,402 ai_service 30963 6195884032 Consulta procesada exitosamente en 12.53s
+INFO 2025-07-01 07:02:27,402 agent_manager 30963 6195884032 Interacción procesada - Agente: curriculum, Query: 'Resume los objetivos de la guía de 1er Grado...', Response time: 12.53s
+INFO 2025-07-01 07:02:27,403 conversation_memory 30963 6195884032 ConversationMemory inicializada para demo-user/curriculum
+ERROR 2025-07-01 07:02:27,407 conversation_memory 30963 6195884032 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:02:27,407 conversation_memory 30963 6195884032 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:03:19,781 autoreload 34524 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 07:04:15,113 autoreload 30963 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-07-01 07:04:16,617 autoreload 34799 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 07:08:22,626 ai_service 34799 12918534144 Claude API key no configurada
+INFO 2025-07-01 07:08:22,629 agent_manager 34799 12918534144 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:08:22,634 ai_service 34799 12918534144 Claude API key no configurada
+INFO 2025-07-01 07:08:22,634 agent_manager 34799 12918534144 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:08:22,639 ai_service 34799 12918534144 Claude API key no configurada
+INFO 2025-07-01 07:08:22,639 agent_manager 34799 12918534144 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:08:22,644 ai_service 34799 12918534144 Claude API key no configurada
+INFO 2025-07-01 07:08:22,644 agent_manager 34799 12918534144 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:08:22,651 ai_service 34799 12918534144 Claude API key no configurada
+INFO 2025-07-01 07:08:22,651 agent_manager 34799 12918534144 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:08:22,652 agent_manager 34799 12918534144 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:08:22,722 SentenceTransformer 34799 12918534144 Use pytorch device_name: mps
+INFO 2025-07-01 07:08:22,722 SentenceTransformer 34799 12918534144 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:08:27,271 enhanced_rag 34799 12918534144 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:08:27,541 posthog 34799 12918534144 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:08:27,541 enhanced_rag 34799 12918534144 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:08:27,546 conversation_memory 34799 12918534144 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:08:27,556 conversation_memory 34799 12918534144 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:08:28,650 enhanced_rag 34799 12918534144 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:08:28,651 conversation_memory 34799 12918534144 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:08:28,655 ai_service 34799 12918534144 Procesando consulta con OpenAI - Tokens: 769
+INFO 2025-07-01 07:08:37,636 _client 34799 12918534144 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:08:37,643 ai_service 34799 12918534144 Consulta procesada exitosamente en 8.99s
+INFO 2025-07-01 07:08:37,643 agent_manager 34799 12918534144 Interacción procesada - Agente: tutor, Query: 'explicame...', Response time: 8.99s
+ERROR 2025-07-01 07:08:37,645 conversation_memory 34799 12918534144 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:08:37,645 conversation_memory 34799 12918534144 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:09:06,803 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:09:06,803 agent_manager 34799 14254583808 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:09:06,812 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:09:06,812 agent_manager 34799 14254583808 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:09:06,823 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:09:06,824 agent_manager 34799 14254583808 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:09:06,838 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:09:06,838 agent_manager 34799 14254583808 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:09:06,855 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:09:06,855 agent_manager 34799 14254583808 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:09:06,855 agent_manager 34799 14254583808 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:09:06,858 SentenceTransformer 34799 14254583808 Use pytorch device_name: mps
+INFO 2025-07-01 07:09:06,859 SentenceTransformer 34799 14254583808 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:09:10,671 enhanced_rag 34799 14254583808 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:09:10,688 posthog 34799 14254583808 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:09:10,688 enhanced_rag 34799 14254583808 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:09:10,689 conversation_memory 34799 14254583808 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:09:10,690 conversation_memory 34799 14254583808 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:09:10,820 enhanced_rag 34799 14254583808 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:09:10,821 conversation_memory 34799 14254583808 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:09:10,828 ai_service 34799 14254583808 Procesando consulta con OpenAI - Tokens: 916
+INFO 2025-07-01 07:09:15,667 _client 34799 14254583808 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:09:15,678 ai_service 34799 14254583808 Consulta procesada exitosamente en 4.86s
+INFO 2025-07-01 07:09:15,679 agent_manager 34799 14254583808 Interacción procesada - Agente: tutor, Query: 'explicame...', Response time: 4.86s
+ERROR 2025-07-01 07:09:15,681 conversation_memory 34799 14254583808 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:09:15,683 conversation_memory 34799 14254583808 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:11:39,741 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:11:39,743 agent_manager 34799 14254583808 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:11:39,748 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:11:39,749 agent_manager 34799 14254583808 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:11:39,761 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:11:39,762 agent_manager 34799 14254583808 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:11:39,815 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:11:39,815 agent_manager 34799 14254583808 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:11:39,823 ai_service 34799 14254583808 Claude API key no configurada
+INFO 2025-07-01 07:11:39,823 agent_manager 34799 14254583808 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:11:39,823 agent_manager 34799 14254583808 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:11:39,829 SentenceTransformer 34799 14254583808 Use pytorch device_name: mps
+INFO 2025-07-01 07:11:39,829 SentenceTransformer 34799 14254583808 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:11:43,664 enhanced_rag 34799 14254583808 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:11:43,701 posthog 34799 14254583808 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:11:43,701 enhanced_rag 34799 14254583808 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:11:43,702 conversation_memory 34799 14254583808 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:11:43,711 conversation_memory 34799 14254583808 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:11:43,949 enhanced_rag 34799 14254583808 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:11:43,950 conversation_memory 34799 14254583808 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:11:43,957 ai_service 34799 14254583808 Procesando consulta con OpenAI - Tokens: 872
+INFO 2025-07-01 07:11:51,275 _client 34799 14254583808 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:11:51,279 ai_service 34799 14254583808 Consulta procesada exitosamente en 7.33s
+INFO 2025-07-01 07:11:51,279 agent_manager 34799 14254583808 Interacción procesada - Agente: tutor, Query: 'explicame lo que se espera...', Response time: 7.33s
+ERROR 2025-07-01 07:11:51,280 conversation_memory 34799 14254583808 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:11:51,280 conversation_memory 34799 14254583808 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:15:50,098 ai_service 34799 12931117056 Claude API key no configurada
+INFO 2025-07-01 07:15:50,100 agent_manager 34799 12931117056 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:15:50,112 ai_service 34799 12931117056 Claude API key no configurada
+INFO 2025-07-01 07:15:50,128 agent_manager 34799 12931117056 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:15:50,138 ai_service 34799 12931117056 Claude API key no configurada
+INFO 2025-07-01 07:15:50,138 agent_manager 34799 12931117056 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:15:50,144 ai_service 34799 12931117056 Claude API key no configurada
+INFO 2025-07-01 07:15:50,144 agent_manager 34799 12931117056 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:15:50,152 ai_service 34799 12931117056 Claude API key no configurada
+INFO 2025-07-01 07:15:50,152 agent_manager 34799 12931117056 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:15:50,153 agent_manager 34799 12931117056 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:15:50,157 SentenceTransformer 34799 12931117056 Use pytorch device_name: mps
+INFO 2025-07-01 07:15:50,157 SentenceTransformer 34799 12931117056 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:15:54,264 enhanced_rag 34799 12931117056 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:15:54,307 posthog 34799 12931117056 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:15:54,307 enhanced_rag 34799 12931117056 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:15:54,313 conversation_memory 34799 12931117056 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:15:54,319 conversation_memory 34799 12931117056 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:15:54,649 enhanced_rag 34799 12931117056 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:15:54,649 conversation_memory 34799 12931117056 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:15:54,650 agent_manager 34799 12931117056 Query routing: 'Resume los objetivos de la guía de 1er Grado...' -> curriculum (score: 0.3333333333333333)
+INFO 2025-07-01 07:15:54,672 ai_service 34799 12931117056 Procesando consulta con OpenAI - Tokens: 990
+INFO 2025-07-01 07:16:11,507 _client 34799 12931117056 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:16:11,513 ai_service 34799 12931117056 Consulta procesada exitosamente en 16.86s
+INFO 2025-07-01 07:16:11,513 agent_manager 34799 12931117056 Interacción procesada - Agente: curriculum, Query: 'Resume los objetivos de la guía de 1er Grado...', Response time: 16.86s
+INFO 2025-07-01 07:16:11,514 conversation_memory 34799 12931117056 ConversationMemory inicializada para demo-user/curriculum
+ERROR 2025-07-01 07:16:11,515 conversation_memory 34799 12931117056 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:16:11,516 conversation_memory 34799 12931117056 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:20:25,431 ai_service 34799 14330884096 Claude API key no configurada
+INFO 2025-07-01 07:20:25,435 agent_manager 34799 14330884096 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:20:25,444 ai_service 34799 14330884096 Claude API key no configurada
+INFO 2025-07-01 07:20:25,444 agent_manager 34799 14330884096 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:20:25,451 ai_service 34799 14330884096 Claude API key no configurada
+INFO 2025-07-01 07:20:25,451 agent_manager 34799 14330884096 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:20:25,456 ai_service 34799 14330884096 Claude API key no configurada
+INFO 2025-07-01 07:20:25,456 agent_manager 34799 14330884096 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:20:25,463 ai_service 34799 14330884096 Claude API key no configurada
+INFO 2025-07-01 07:20:25,464 agent_manager 34799 14330884096 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:20:25,464 agent_manager 34799 14330884096 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:20:25,473 SentenceTransformer 34799 14330884096 Use pytorch device_name: mps
+INFO 2025-07-01 07:20:25,473 SentenceTransformer 34799 14330884096 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:20:29,725 enhanced_rag 34799 14330884096 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:20:29,765 posthog 34799 14330884096 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:20:29,765 enhanced_rag 34799 14330884096 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:20:29,767 conversation_memory 34799 14330884096 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:20:29,775 conversation_memory 34799 14330884096 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:20:30,890 enhanced_rag 34799 14330884096 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:20:30,891 conversation_memory 34799 14330884096 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:20:30,891 agent_manager 34799 14330884096 Query routing: 'test...' -> evaluator (score: 0.5)
+INFO 2025-07-01 07:20:30,906 ai_service 34799 14330884096 Procesando consulta con OpenAI - Tokens: 788
+INFO 2025-07-01 07:20:35,109 _client 34799 14330884096 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:20:35,120 ai_service 34799 14330884096 Consulta procesada exitosamente en 4.23s
+INFO 2025-07-01 07:20:35,120 agent_manager 34799 14330884096 Interacción procesada - Agente: evaluator, Query: 'test...', Response time: 4.23s
+INFO 2025-07-01 07:20:35,120 conversation_memory 34799 14330884096 ConversationMemory inicializada para demo-user/evaluator
+ERROR 2025-07-01 07:20:35,121 conversation_memory 34799 14330884096 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:20:35,121 conversation_memory 34799 14330884096 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:23:00,899 ai_service 34799 6223982592 Claude API key no configurada
+INFO 2025-07-01 07:23:00,900 agent_manager 34799 6223982592 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:23:00,906 ai_service 34799 6223982592 Claude API key no configurada
+INFO 2025-07-01 07:23:00,907 agent_manager 34799 6223982592 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:23:00,914 ai_service 34799 6223982592 Claude API key no configurada
+INFO 2025-07-01 07:23:00,915 agent_manager 34799 6223982592 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:23:00,921 ai_service 34799 6223982592 Claude API key no configurada
+INFO 2025-07-01 07:23:00,921 agent_manager 34799 6223982592 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:23:00,928 ai_service 34799 6223982592 Claude API key no configurada
+INFO 2025-07-01 07:23:00,934 agent_manager 34799 6223982592 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:23:00,934 agent_manager 34799 6223982592 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:23:00,943 SentenceTransformer 34799 6223982592 Use pytorch device_name: mps
+INFO 2025-07-01 07:23:00,943 SentenceTransformer 34799 6223982592 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:23:04,679 enhanced_rag 34799 6223982592 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:23:04,726 posthog 34799 6223982592 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:23:04,727 enhanced_rag 34799 6223982592 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:23:04,729 conversation_memory 34799 6223982592 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:23:04,736 conversation_memory 34799 6223982592 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:23:04,972 enhanced_rag 34799 6223982592 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:23:04,973 conversation_memory 34799 6223982592 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:23:04,987 ai_service 34799 6223982592 Procesando consulta con OpenAI - Tokens: 689
+INFO 2025-07-01 07:23:08,683 _client 34799 6223982592 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:23:08,710 ai_service 34799 6223982592 Consulta procesada exitosamente en 3.74s
+INFO 2025-07-01 07:23:08,710 agent_manager 34799 6223982592 Interacción procesada - Agente: tutor, Query: 'zczxczxc...', Response time: 3.74s
+ERROR 2025-07-01 07:23:08,711 conversation_memory 34799 6223982592 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:23:08,712 conversation_memory 34799 6223982592 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:23:16,593 ai_service 34799 6223327232 Claude API key no configurada
+INFO 2025-07-01 07:23:16,594 agent_manager 34799 6223327232 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:23:16,601 ai_service 34799 6223327232 Claude API key no configurada
+INFO 2025-07-01 07:23:16,601 agent_manager 34799 6223327232 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:23:16,627 ai_service 34799 6223327232 Claude API key no configurada
+INFO 2025-07-01 07:23:16,627 agent_manager 34799 6223327232 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:23:16,633 ai_service 34799 6223327232 Claude API key no configurada
+INFO 2025-07-01 07:23:16,633 agent_manager 34799 6223327232 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:23:16,638 ai_service 34799 6223327232 Claude API key no configurada
+INFO 2025-07-01 07:23:16,638 agent_manager 34799 6223327232 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:23:16,638 agent_manager 34799 6223327232 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:23:16,643 SentenceTransformer 34799 6223327232 Use pytorch device_name: mps
+INFO 2025-07-01 07:23:16,643 SentenceTransformer 34799 6223327232 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:23:20,358 enhanced_rag 34799 6223327232 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:23:20,390 posthog 34799 6223327232 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:23:20,390 enhanced_rag 34799 6223327232 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:23:20,392 conversation_memory 34799 6223327232 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:23:20,393 conversation_memory 34799 6223327232 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:23:20,583 enhanced_rag 34799 6223327232 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:23:20,585 conversation_memory 34799 6223327232 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:23:20,600 ai_service 34799 6223327232 Procesando consulta con OpenAI - Tokens: 1948
+INFO 2025-07-01 07:23:30,281 _client 34799 6223327232 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:23:30,287 ai_service 34799 6223327232 Consulta procesada exitosamente en 9.70s
+INFO 2025-07-01 07:23:30,287 agent_manager 34799 6223327232 Interacción procesada - Agente: tutor, Query: 'explcame...', Response time: 9.70s
+ERROR 2025-07-01 07:23:30,288 conversation_memory 34799 6223327232 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:23:30,291 conversation_memory 34799 6223327232 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:40:22,881 ai_service 34799 6256979968 Claude API key no configurada
+INFO 2025-07-01 07:40:22,883 agent_manager 34799 6256979968 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:40:22,893 ai_service 34799 6256979968 Claude API key no configurada
+INFO 2025-07-01 07:40:22,893 agent_manager 34799 6256979968 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:40:22,906 ai_service 34799 6256979968 Claude API key no configurada
+INFO 2025-07-01 07:40:22,907 agent_manager 34799 6256979968 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:40:22,914 ai_service 34799 6256979968 Claude API key no configurada
+INFO 2025-07-01 07:40:22,915 agent_manager 34799 6256979968 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:40:22,923 ai_service 34799 6256979968 Claude API key no configurada
+INFO 2025-07-01 07:40:22,923 agent_manager 34799 6256979968 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:40:22,923 agent_manager 34799 6256979968 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:40:22,936 SentenceTransformer 34799 6256979968 Use pytorch device_name: mps
+INFO 2025-07-01 07:40:22,937 SentenceTransformer 34799 6256979968 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:40:28,166 enhanced_rag 34799 6256979968 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:40:28,221 posthog 34799 6256979968 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:40:28,221 enhanced_rag 34799 6256979968 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:40:28,225 conversation_memory 34799 6256979968 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:40:28,227 conversation_memory 34799 6256979968 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:40:28,428 enhanced_rag 34799 6256979968 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:40:28,428 conversation_memory 34799 6256979968 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:40:28,463 ai_service 34799 6256979968 Procesando consulta con OpenAI - Tokens: 740
+INFO 2025-07-01 07:40:35,342 _client 34799 6256979968 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:40:35,352 ai_service 34799 6256979968 Consulta procesada exitosamente en 6.92s
+INFO 2025-07-01 07:40:35,352 agent_manager 34799 6256979968 Interacción procesada - Agente: tutor, Query: 'explcame...', Response time: 6.92s
+ERROR 2025-07-01 07:40:35,354 conversation_memory 34799 6256979968 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:40:35,356 conversation_memory 34799 6256979968 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 07:48:01,132 ai_service 34799 6356643840 Claude API key no configurada
+INFO 2025-07-01 07:48:01,136 agent_manager 34799 6356643840 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 07:48:01,160 ai_service 34799 6356643840 Claude API key no configurada
+INFO 2025-07-01 07:48:01,160 agent_manager 34799 6356643840 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 07:48:01,175 ai_service 34799 6356643840 Claude API key no configurada
+INFO 2025-07-01 07:48:01,175 agent_manager 34799 6356643840 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 07:48:01,184 ai_service 34799 6356643840 Claude API key no configurada
+INFO 2025-07-01 07:48:01,185 agent_manager 34799 6356643840 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 07:48:01,199 ai_service 34799 6356643840 Claude API key no configurada
+INFO 2025-07-01 07:48:01,200 agent_manager 34799 6356643840 ✅ Analytics Agent inicializado
+INFO 2025-07-01 07:48:01,200 agent_manager 34799 6356643840 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 07:48:01,215 SentenceTransformer 34799 6356643840 Use pytorch device_name: mps
+INFO 2025-07-01 07:48:01,215 SentenceTransformer 34799 6356643840 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 07:48:08,632 enhanced_rag 34799 6356643840 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 07:48:08,695 posthog 34799 6356643840 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 07:48:08,695 enhanced_rag 34799 6356643840 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 07:48:08,704 conversation_memory 34799 6356643840 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 07:48:08,705 conversation_memory 34799 6356643840 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:48:09,104 enhanced_rag 34799 6356643840 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 07:48:09,106 conversation_memory 34799 6356643840 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 07:48:09,121 ai_service 34799 6356643840 Procesando consulta con OpenAI - Tokens: 688
+INFO 2025-07-01 07:48:11,927 _client 34799 6356643840 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 07:48:11,939 ai_service 34799 6356643840 Consulta procesada exitosamente en 2.83s
+INFO 2025-07-01 07:48:11,940 agent_manager 34799 6356643840 Interacción procesada - Agente: tutor, Query: 'explicame ........', Response time: 2.83s
+ERROR 2025-07-01 07:48:11,941 conversation_memory 34799 6356643840 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 07:48:11,942 conversation_memory 34799 6356643840 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 08:31:59,957 structure_analyzer 54099 8355503872 Detected 10 structure elements
+INFO 2025-07-01 08:31:59,958 semantic_chunker 54099 8355503872 Created 10 semantic chunks
+INFO 2025-07-01 08:32:02,523 structure_analyzer 54099 8355503872 Detected 174 structure elements
+INFO 2025-07-01 08:32:02,523 structure_analyzer 54099 8355503872 Structure analysis completed: {'total_elements': 174, 'units_found': 2, 'modules_found': 0, 'classes_found': 17}
+INFO 2025-07-01 08:32:02,524 semantic_chunker 54099 8355503872 Created 8 semantic chunks
+INFO 2025-07-01 08:32:04,681 structure_analyzer 54099 8355503872 Detected 204 structure elements
+INFO 2025-07-01 08:32:04,681 structure_analyzer 54099 8355503872 Structure analysis completed: {'total_elements': 204, 'units_found': 1, 'modules_found': 0, 'classes_found': 3}
+INFO 2025-07-01 08:32:04,681 semantic_chunker 54099 8355503872 Created 1 semantic chunks
+INFO 2025-07-01 08:39:21,523 autoreload 55846 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 08:49:18,768 autoreload 58271 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 09:08:09,183 autoreload 61895 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:22:23,859 autoreload 97933 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:26:55,288 conversation_memory 97933 6387888128 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 12:26:55,417 conversation_memory 97933 6387888128 Error limpiando memoria: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 12:26:55,418 conversation_memory 97933 6387888128 ConversationMemory inicializada para demo-user/evaluator
+ERROR 2025-07-01 12:26:55,418 conversation_memory 97933 6387888128 Error limpiando memoria: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 12:26:55,419 conversation_memory 97933 6387888128 ConversationMemory inicializada para demo-user/counselor
+ERROR 2025-07-01 12:26:55,420 conversation_memory 97933 6387888128 Error limpiando memoria: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 12:26:55,421 conversation_memory 97933 6387888128 ConversationMemory inicializada para demo-user/curriculum
+ERROR 2025-07-01 12:26:55,421 conversation_memory 97933 6387888128 Error limpiando memoria: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 12:26:55,421 conversation_memory 97933 6387888128 ConversationMemory inicializada para demo-user/analytics
+ERROR 2025-07-01 12:26:55,422 conversation_memory 97933 6387888128 Error limpiando memoria: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 12:36:46,550 autoreload 97933 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/models.py changed, reloading.
+INFO 2025-07-01 12:36:51,311 autoreload 1178 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:39:25,026 autoreload 1178 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/models.py changed, reloading.
+INFO 2025-07-01 12:39:26,030 autoreload 2301 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:42:16,537 autoreload 2301 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-07-01 12:42:17,641 autoreload 3233 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:44:12,513 autoreload 3910 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:45:09,972 autoreload 5110 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 12:45:19,981 log 5110 6383513600 Not Found: /
+WARNING 2025-07-01 12:45:34,498 log 5110 6400339968 Not Found: /api/documents/api/structure/fa630e7d-e9cf-4bac-84ee-fa0e4fb9a6e6/
+INFO 2025-07-01 12:45:57,821 autoreload 5110 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/urls.py changed, reloading.
+INFO 2025-07-01 12:45:58,871 autoreload 5301 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:46:14,370 autoreload 5701 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:46:32,631 autoreload 6084 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:46:50,249 autoreload 6149 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:49:27,034 autoreload 7213 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:49:43,956 autoreload 7297 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:15,004 autoreload 6149 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-07-01 12:51:15,004 autoreload 5301 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/models.py changed, reloading.
+INFO 2025-07-01 12:51:15,012 autoreload 6084 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/models.py changed, reloading.
+INFO 2025-07-01 12:51:15,015 autoreload 5701 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/views.py changed, reloading.
+INFO 2025-07-01 12:51:17,923 autoreload 8303 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:17,923 autoreload 8302 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:17,923 autoreload 8301 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:17,923 autoreload 8304 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:37,118 autoreload 8759 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:51:44,515 autoreload 8799 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 12:59:33,265 sync_documents 10534 8355503872 🚀 Iniciando sincronización de documentos...
+INFO 2025-07-01 12:59:33,268 sync_documents 10534 8355503872 ℹ️  Usuario por defecto ya existe: default-user
+INFO 2025-07-01 12:59:33,268 sync_documents 10534 8355503872 📁 Sincronizando archivos desde: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir
+INFO 2025-07-01 12:59:33,268 sync_documents 10534 8355503872 📄 Encontrados 5 archivos PDF
+INFO 2025-07-01 12:59:33,269 sync_documents 10534 8355503872 ⚠️  Ya existe: 4G_GD_modulo 1 a 5 12042022.pdf (ID: fa630e7d-e9cf-4bac-84ee-fa0e4fb9a6e6)
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872 ⚠️  Ya existe: 1G GD M1-M5 b.pdf (ID: 58a881b8-5c24-4dc7-b395-1bb888fadd59)
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872 ⚠️  Ya existe: 6G_GD_ Modulo_13_Matemática.pdf (ID: dc6821b6-64d5-47fc-beba-4c8939338a23)
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872 ⚠️  Ya existe: 6G_GD_ Modulo_16_Matemática (1).pdf (ID: 0a83b673-ff0c-4d95-99cc-3b4f019f7934)
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872 ⚠️  Ya existe: 6G_GD_ Modulo_16_Matemática.pdf (ID: d51d6c5f-0edb-4e49-abdb-3cef032fdc43)
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872 
+📊 RESUMEN DE SINCRONIZACIÓN:
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872    ✅ Documentos creados: 0
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872    ⚠️  Documentos existentes: 5
+INFO 2025-07-01 12:59:33,270 sync_documents 10534 8355503872    ❌ Errores: 0
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872    📈 Total documentos en BD: 5
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872    🔍 Documentos analizados: 0
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872 
+🎉 Sincronización completada exitosamente!
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872 
+📝 Próximos pasos:
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872    1. Reiniciar el servidor Django
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872    2. Verificar que la API devuelve los documentos con IDs
+INFO 2025-07-01 12:59:33,271 sync_documents 10534 8355503872    3. Probar la funcionalidad de estructura
+INFO 2025-07-01 13:02:50,286 autoreload 11503 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 13:02:57,799 views 11503 6123843584 📋 Listando 5 documentos
+INFO 2025-07-01 13:03:04,350 views 11503 6123843584 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:03:04,361 views 11503 6123843584 🔄 Analizando estructura para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:03:04,361 structure_analyzer 11503 6123843584 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:03:04,361 structure_analyzer 11503 6123843584 🔍 Analizando estructura del documento...
+ERROR 2025-07-01 13:03:04,362 views 11503 6123843584 ❌ Error analizando estructura: 'unidads_found'
+ERROR 2025-07-01 13:03:04,364 log 11503 6123843584 Internal Server Error: /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/
+INFO 2025-07-01 13:03:26,642 autoreload 11503 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/services/structure_analyzer.py changed, reloading.
+INFO 2025-07-01 13:03:27,881 autoreload 11638 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 13:03:33,905 views 11638 6202667008 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:03:33,908 views 11638 6202667008 🔄 Analizando estructura para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:03:33,908 structure_analyzer 11638 6202667008 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:03:33,908 structure_analyzer 11638 6202667008 🔍 Analizando estructura del documento...
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Unidad encontrado: INTRODUCCIÓN AL APRENDIZAJE
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Modulo encontrado: LETRAS Y SONIDOS
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Clase encontrado: Reconocimiento de vocales
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Clase encontrado: Consonantes básicas
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Modulo encontrado: PRIMERAS PALABRAS
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Clase encontrado: Palabras simples
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Unidad encontrado: NÚMEROS Y FORMAS
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Modulo encontrado: NÚMEROS DEL 1 AL 10
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008   📋 Clase encontrado: Conteo básico
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008 ✅ Análisis completado: 9 elementos encontrados
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008 📝 Creando chunks semánticos...
+INFO 2025-07-01 13:03:33,910 structure_analyzer 11638 6202667008 ✅ Creados 9 chunks semánticos
+ERROR 2025-07-01 13:03:33,918 views 11638 6202667008 ❌ Error analizando estructura: no such table: documents_documentstructure
+ERROR 2025-07-01 13:03:33,918 log 11638 6202667008 Internal Server Error: /api/documents/api/structure/58a881b8-5c24-4dc7-b395-1bb888fadd59/
+WARNING 2025-07-01 13:16:16,602 ai_service 11638 6219493376 Claude API key no configurada
+INFO 2025-07-01 13:16:16,603 agent_manager 11638 6219493376 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 13:16:16,608 ai_service 11638 6219493376 Claude API key no configurada
+INFO 2025-07-01 13:16:16,608 agent_manager 11638 6219493376 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 13:16:16,614 ai_service 11638 6219493376 Claude API key no configurada
+INFO 2025-07-01 13:16:16,614 agent_manager 11638 6219493376 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 13:16:16,618 ai_service 11638 6219493376 Claude API key no configurada
+INFO 2025-07-01 13:16:16,618 agent_manager 11638 6219493376 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 13:16:16,623 ai_service 11638 6219493376 Claude API key no configurada
+INFO 2025-07-01 13:16:16,623 agent_manager 11638 6219493376 ✅ Analytics Agent inicializado
+INFO 2025-07-01 13:16:16,623 agent_manager 11638 6219493376 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 13:16:16,692 SentenceTransformer 11638 6219493376 Use pytorch device_name: mps
+INFO 2025-07-01 13:16:16,692 SentenceTransformer 11638 6219493376 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 13:16:21,197 enhanced_rag 11638 6219493376 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 13:16:21,567 posthog 11638 6219493376 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 13:16:21,568 enhanced_rag 11638 6219493376 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 13:16:21,574 conversation_memory 11638 6219493376 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 13:16:21,581 conversation_memory 11638 6219493376 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 13:16:22,000 enhanced_rag 11638 6219493376 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 13:16:22,001 conversation_memory 11638 6219493376 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 13:16:22,001 agent_manager 11638 6219493376 Query routing: 'ayudame en esta unidad...' -> tutor (score: 1.0)
+INFO 2025-07-01 13:16:22,007 ai_service 11638 6219493376 Procesando consulta con OpenAI - Tokens: 690
+INFO 2025-07-01 13:16:27,280 _client 11638 6219493376 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 13:16:27,291 ai_service 11638 6219493376 Consulta procesada exitosamente en 5.29s
+INFO 2025-07-01 13:16:27,291 agent_manager 11638 6219493376 Interacción procesada - Agente: tutor, Query: 'ayudame en esta unidad...', Response time: 5.29s
+ERROR 2025-07-01 13:16:27,292 conversation_memory 11638 6219493376 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 13:16:27,293 conversation_memory 11638 6219493376 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 13:22:55,955 autoreload 15139 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 13:23:04,268 views 15139 13035925504 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:23:04,277 views 15139 13035925504 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:25:06,491 views 15139 13187362816 📋 Listando 5 documentos
+INFO 2025-07-01 13:25:06,508 views 15139 13204189184 🔍 Obteniendo estructura para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO 2025-07-01 13:25:06,513 views 15139 13204189184 🔄 Analizando estructura para: 6G_GD_ Modulo_16_Matemática.pdf
+INFO 2025-07-01 13:25:06,514 structure_analyzer 15139 13204189184 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/6G_GD_ Modulo_16_Matemática.pdf
+INFO 2025-07-01 13:25:06,516 structure_analyzer 15139 13204189184 🔍 Analizando estructura del documento...
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Unidad encontrado: ÁLGEBRA BÁSICA
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Modulo encontrado: ECUACIONES LINEALES
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Clase encontrado: Introducción a las variables
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Clase encontrado: Métodos de resolución
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Modulo encontrado: GEOMETRÍA ANALÍTICA
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Clase encontrado: Plano cartesiano
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Clase encontrado: Funciones lineales
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Unidad encontrado: ESTADÍSTICA Y PROBABILIDAD
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Modulo encontrado: ANÁLISIS DE DATOS
+INFO 2025-07-01 13:25:06,524 structure_analyzer 15139 13204189184   📋 Clase encontrado: Medidas de tendencia central
+INFO 2025-07-01 13:25:06,526 structure_analyzer 15139 13204189184 ✅ Análisis completado: 10 elementos encontrados
+INFO 2025-07-01 13:25:06,526 structure_analyzer 15139 13204189184 📝 Creando chunks semánticos...
+INFO 2025-07-01 13:25:06,528 structure_analyzer 15139 13204189184 ✅ Creados 10 chunks semánticos
+INFO 2025-07-01 13:25:06,553 views 15139 13204189184 ✅ Estructura analizada y guardada para: 6G_GD_ Modulo_16_Matemática.pdf
+INFO 2025-07-01 13:25:06,555 views 15139 6164770816 📝 Obteniendo chunks para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO 2025-07-01 13:25:06,557 views 15139 6164770816 ✅ Encontrados 10 chunks para: 6G_GD_ Modulo_16_Matemática.pdf
+INFO 2025-07-01 13:25:06,562 views 15139 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 13:27:40,851 views 15139 13052751872 📋 Listando 5 documentos
+INFO 2025-07-01 13:27:40,864 views 15139 13052751872 📋 Listando 5 documentos
+INFO 2025-07-01 13:27:42,478 views 15139 13052751872 🔍 Obteniendo estructura para documento: d51d6c5f-0edb-4e49-abdb-3cef032fdc43
+INFO 2025-07-01 13:27:42,480 views 15139 13052751872 ✅ Estructura ya analizada para: 6G_GD_ Modulo_16_Matemática.pdf
+INFO 2025-07-01 13:28:05,147 views 15139 6164770816 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:28:05,155 views 15139 6164770816 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:28:33,728 views 15139 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 13:28:33,745 views 15139 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 13:28:36,269 views 15139 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 13:28:36,275 views 15139 13035925504 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:28:36,278 views 15139 13035925504 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:28:36,282 views 15139 13035925504 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 13:28:36,284 views 15139 13052751872 📋 Listando 5 documentos
+INFO 2025-07-01 13:28:36,286 views 15139 13035925504 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 13:28:48,569 views 15139 13069578240 📋 Listando 5 documentos
+INFO 2025-07-01 13:28:48,622 views 15139 13069578240 📋 Listando 5 documentos
+INFO 2025-07-01 13:31:55,857 views 15139 6164770816 📋 Listando 5 documentos
+INFO 2025-07-01 13:31:55,870 views 15139 6164770816 📋 Listando 5 documentos
+INFO 2025-07-01 20:14:39,809 autoreload 90023 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:16:14,560 views 90023 6164000768 📋 Listando 5 documentos
+INFO 2025-07-01 20:16:14,596 views 90023 6164000768 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:00,661 views 90023 6164000768 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:00,672 views 90023 6164000768 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:02,085 views 90023 13170143232 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:02,098 views 90023 13170143232 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:17:02,104 views 90023 13170143232 🔄 Analizando estructura para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:17:02,104 structure_analyzer 90023 13170143232 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:17:02,105 structure_analyzer 90023 13170143232 🔍 Analizando estructura del documento...
+INFO 2025-07-01 20:17:02,110 structure_analyzer 90023 13170143232   📋 Unidad encontrado: ÁLGEBRA BÁSICA
+INFO 2025-07-01 20:17:02,111 structure_analyzer 90023 13170143232   📋 Modulo encontrado: ECUACIONES LINEALES
+INFO 2025-07-01 20:17:02,111 structure_analyzer 90023 13170143232   📋 Clase encontrado: Introducción a las variables
+INFO 2025-07-01 20:17:02,111 structure_analyzer 90023 13170143232   📋 Clase encontrado: Métodos de resolución
+INFO 2025-07-01 20:17:02,111 structure_analyzer 90023 13170143232   📋 Modulo encontrado: GEOMETRÍA ANALÍTICA
+INFO 2025-07-01 20:17:02,111 structure_analyzer 90023 13170143232   📋 Clase encontrado: Plano cartesiano
+INFO 2025-07-01 20:17:02,112 structure_analyzer 90023 13170143232   📋 Clase encontrado: Funciones lineales
+INFO 2025-07-01 20:17:02,112 structure_analyzer 90023 13170143232   📋 Unidad encontrado: ESTADÍSTICA Y PROBABILIDAD
+INFO 2025-07-01 20:17:02,112 structure_analyzer 90023 13170143232   📋 Modulo encontrado: ANÁLISIS DE DATOS
+INFO 2025-07-01 20:17:02,112 structure_analyzer 90023 13170143232   📋 Clase encontrado: Medidas de tendencia central
+INFO 2025-07-01 20:17:02,112 views 90023 13186969600 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:02,113 structure_analyzer 90023 13170143232 ✅ Análisis completado: 10 elementos encontrados
+INFO 2025-07-01 20:17:02,114 structure_analyzer 90023 13170143232 📝 Creando chunks semánticos...
+INFO 2025-07-01 20:17:02,116 structure_analyzer 90023 13170143232 ✅ Creados 10 chunks semánticos
+INFO 2025-07-01 20:17:02,147 views 90023 13170143232 ✅ Estructura analizada y guardada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:17:02,148 views 90023 13186969600 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:17:02,150 views 90023 13186969600 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:17:04,603 views 90023 13186969600 📋 Listando 5 documentos
+INFO 2025-07-01 20:17:04,624 views 90023 13186969600 📋 Listando 5 documentos
+WARNING 2025-07-01 20:17:29,089 log 90023 6164000768 Not Found: /
+INFO 2025-07-01 20:17:45,896 autoreload 90965 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:20:28,709 autoreload 92529 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:20:38,366 log 92529 6192377856 Not Found: /
+WARNING 2025-07-01 20:20:44,823 log 92529 6192377856 Not Found: /
+INFO 2025-07-01 20:22:07,892 autoreload 93075 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:22:17,734 log 93075 6202814464 Not Found: /
+INFO 2025-07-01 20:22:30,846 views 93075 6202814464 📋 Listando 5 documentos
+INFO 2025-07-01 20:22:30,869 views 93075 6202814464 📋 Listando 5 documentos
+INFO 2025-07-01 20:25:36,857 views 93075 6236467200 📋 Listando 5 documentos
+INFO 2025-07-01 20:26:11,513 autoreload 93900 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:26:21,521 log 93900 6167785472 Not Found: /
+INFO 2025-07-01 20:26:57,356 views 93900 13052751872 📋 Listando 5 documentos
+INFO 2025-07-01 20:26:57,371 views 93900 13052751872 📋 Listando 5 documentos
+INFO 2025-07-01 20:27:56,544 views 93900 13069578240 📋 Listando 5 documentos
+INFO 2025-07-01 20:27:56,560 views 93900 13069578240 📋 Listando 5 documentos
+INFO 2025-07-01 20:27:57,890 views 93900 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 20:27:57,894 views 93900 13052751872 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:27:57,899 views 93900 13035925504 📋 Listando 5 documentos
+INFO 2025-07-01 20:27:57,903 views 93900 13052751872 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:27:57,906 views 93900 13035925504 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:27:57,909 views 93900 13035925504 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:28:24,802 views 93900 13086404608 📋 Listando 5 documentos
+INFO 2025-07-01 20:28:24,814 views 93900 13069578240 📋 Listando 5 documentos
+INFO 2025-07-01 20:29:22,940 autoreload 94582 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:29:30,621 log 94582 6198439936 Not Found: /
+INFO 2025-07-01 20:30:19,285 autoreload 94844 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:30:27,214 log 94844 6128758784 Not Found: /
+INFO 2025-07-01 20:30:27,864 views 94844 6162411520 📋 Listando 5 documentos
+INFO 2025-07-01 20:30:27,870 views 94844 6162411520 📋 Listando 5 documentos
+INFO 2025-07-01 20:31:08,334 views 94844 6145585152 📋 Listando 5 documentos
+INFO 2025-07-01 20:31:08,348 views 94844 6145585152 📋 Listando 5 documentos
+INFO 2025-07-01 20:31:10,145 views 94844 6128758784 📋 Listando 5 documentos
+INFO 2025-07-01 20:31:10,159 views 94844 6128758784 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:31:10,164 views 94844 6128758784 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:31:10,166 views 94844 6162411520 📋 Listando 5 documentos
+INFO 2025-07-01 20:31:10,167 views 94844 6128758784 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:31:10,168 views 94844 6128758784 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:31:46,082 views 94844 6128758784 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:31:46,091 views 94844 6128758784 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:32:19,366 views 94844 6162411520 📋 Listando 5 documentos
+INFO 2025-07-01 20:32:19,376 views 94844 6145585152 📋 Listando 5 documentos
+INFO 2025-07-01 20:35:42,642 autoreload 27789 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:36:05,509 autoreload 28538 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:36:55,571 autoreload 29107 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:37:05,690 log 29107 6156349440 Not Found: /
+INFO 2025-07-01 20:37:13,836 views 29107 6173175808 📋 Listando 5 documentos
+INFO 2025-07-01 20:37:13,855 views 29107 6173175808 📋 Listando 5 documentos
+INFO 2025-07-01 20:37:15,689 views 29107 6156349440 📋 Listando 5 documentos
+INFO 2025-07-01 20:37:15,694 views 29107 6156349440 📋 Listando 5 documentos
+INFO 2025-07-01 20:37:17,136 views 29107 6156349440 🔍 Obteniendo estructura para documento: 0a83b673-ff0c-4d95-99cc-3b4f019f7934
+INFO 2025-07-01 20:37:17,138 views 29107 6156349440 🔄 Analizando estructura para: 6G_GD_ Modulo_16_Matemática (1).pdf
+INFO 2025-07-01 20:37:17,138 structure_analyzer 29107 6156349440 📄 Extrayendo texto de: /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documentos_a_subir/6G_GD_ Modulo_16_Matemática (1).pdf
+INFO 2025-07-01 20:37:17,140 structure_analyzer 29107 6156349440 🔍 Analizando estructura del documento...
+INFO 2025-07-01 20:37:17,143 structure_analyzer 29107 6156349440   📋 Unidad encontrado: ÁLGEBRA BÁSICA
+INFO 2025-07-01 20:37:17,143 structure_analyzer 29107 6156349440   📋 Modulo encontrado: ECUACIONES LINEALES
+INFO 2025-07-01 20:37:17,143 structure_analyzer 29107 6156349440   📋 Clase encontrado: Introducción a las variables
+INFO 2025-07-01 20:37:17,143 structure_analyzer 29107 6156349440   📋 Clase encontrado: Métodos de resolución
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Modulo encontrado: GEOMETRÍA ANALÍTICA
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Clase encontrado: Plano cartesiano
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Clase encontrado: Funciones lineales
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Unidad encontrado: ESTADÍSTICA Y PROBABILIDAD
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Modulo encontrado: ANÁLISIS DE DATOS
+INFO 2025-07-01 20:37:17,144 structure_analyzer 29107 6156349440   📋 Clase encontrado: Medidas de tendencia central
+INFO 2025-07-01 20:37:17,145 structure_analyzer 29107 6156349440 ✅ Análisis completado: 10 elementos encontrados
+INFO 2025-07-01 20:37:17,145 structure_analyzer 29107 6156349440 📝 Creando chunks semánticos...
+INFO 2025-07-01 20:37:17,145 structure_analyzer 29107 6156349440 ✅ Creados 10 chunks semánticos
+INFO 2025-07-01 20:37:17,170 views 29107 6156349440 ✅ Estructura analizada y guardada para: 6G_GD_ Modulo_16_Matemática (1).pdf
+WARNING 2025-07-01 20:37:19,499 log 29107 6156349440 Not Found: /api/documents/api/context/
+WARNING 2025-07-01 20:37:23,879 log 29107 6173175808 Not Found: /api/documents/api/context/
+WARNING 2025-07-01 20:37:30,685 log 29107 13035925504 Not Found: /api/documents/api/context/
+WARNING 2025-07-01 20:38:11,999 log 29107 13052751872 Not Found: /
+WARNING 2025-07-01 20:38:35,810 log 29107 13069578240 Not Found: /api/documents/api/context/
+INFO 2025-07-01 20:39:05,265 autoreload 29107 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/backend_project/settings.py changed, reloading.
+INFO 2025-07-01 20:39:07,117 autoreload 29701 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:39:30,422 autoreload 29843 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:39:40,571 log 29843 6393720832 Not Found: /
+ERROR 2025-07-01 20:39:53,745 structure_views 29843 6393720832 Error managing context: no such table: documents_contextsession
+ERROR 2025-07-01 20:39:53,746 log 29843 6393720832 Internal Server Error: /api/documents/api/context/
+ERROR 2025-07-01 20:40:18,436 views 29843 6410547200 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:40:18,439 log 29843 6410547200 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:40:18,441 log 29843 6427373568 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:40:18,454 views 29843 6410547200 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:40:18,454 log 29843 6410547200 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:40:18,457 log 29843 6427373568 Not Found: /api/documents/api/list/
+INFO 2025-07-01 20:40:39,854 autoreload 30251 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:40:42,503 log 30251 6203928576 Not Found: /
+WARNING 2025-07-01 20:40:49,793 log 30251 6203928576 Not Found: /
+ERROR 2025-07-01 20:40:52,294 views 30251 6220754944 Error listing documents: no such column: documents_document.upload_date
+WARNING 2025-07-01 20:40:52,294 log 30251 6237581312 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:40:52,301 log 30251 6220754944 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:40:52,381 log 30251 6237581312 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:40:52,402 views 30251 6220754944 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:40:52,402 log 30251 6220754944 Internal Server Error: /api/documents/list/
+ERROR 2025-07-01 20:40:59,117 views 30251 6220754944 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:40:59,119 log 30251 6220754944 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:40:59,122 log 30251 6237581312 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:40:59,132 views 30251 6203928576 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:40:59,132 log 30251 6203928576 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:40:59,133 log 30251 6220754944 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:41:00,565 views 30251 6254407680 Error listing documents: no such column: documents_document.upload_date
+WARNING 2025-07-01 20:41:00,566 log 30251 6271234048 Not Found: /api/documents/api/list/
+ERROR 2025-07-01 20:41:00,566 log 30251 6254407680 Internal Server Error: /api/documents/list/
+ERROR 2025-07-01 20:41:00,586 views 30251 6254407680 Error listing documents: no such column: documents_document.upload_date
+ERROR 2025-07-01 20:41:00,586 log 30251 6254407680 Internal Server Error: /api/documents/list/
+WARNING 2025-07-01 20:41:00,590 log 30251 6271234048 Not Found: /api/documents/api/list/
+INFO 2025-07-01 20:41:57,794 autoreload 29701 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/backend_project/settings.py changed, reloading.
+INFO 2025-07-01 20:41:58,124 autoreload 30251 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/backend_project/settings.py changed, reloading.
+INFO 2025-07-01 20:41:58,759 autoreload 30614 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:41:58,947 autoreload 30615 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:42:22,226 autoreload 30614 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/documents/urls.py changed, reloading.
+INFO 2025-07-01 20:42:23,184 autoreload 30701 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:46:07,252 autoreload 31770 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:46:16,936 log 31770 6163345408 Not Found: /
+INFO 2025-07-01 20:46:53,216 views 31770 13170143232 📋 Listando 5 documentos
+INFO 2025-07-01 20:46:53,228 views 31770 13170143232 📋 Listando 5 documentos
+INFO 2025-07-01 20:47:00,253 views 31770 13203795968 📋 Listando 5 documentos
+INFO 2025-07-01 20:47:00,257 views 31770 13203795968 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:47:00,271 views 31770 13203795968 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+INFO 2025-07-01 20:47:00,273 views 31770 6163345408 📋 Listando 5 documentos
+INFO 2025-07-01 20:47:00,274 views 31770 13203795968 🔍 Obteniendo estructura para documento: dc6821b6-64d5-47fc-beba-4c8939338a23
+INFO 2025-07-01 20:47:00,275 views 31770 13203795968 ✅ Estructura ya analizada para: 6G_GD_ Modulo_13_Matemática.pdf
+ERROR 2025-07-01 20:47:09,411 structure_views 31770 13170143232 Error managing context: no such table: documents_contextsession
+ERROR 2025-07-01 20:47:09,411 log 31770 13170143232 Internal Server Error: /api/documents/api/context/
+ERROR 2025-07-01 20:47:16,377 structure_views 31770 13203795968 Error managing context: no such table: documents_contextsession
+ERROR 2025-07-01 20:47:16,380 log 31770 13203795968 Internal Server Error: /api/documents/api/context/
+ERROR 2025-07-01 20:47:19,581 structure_views 31770 13203795968 Error managing context: no such table: documents_contextsession
+ERROR 2025-07-01 20:47:19,582 log 31770 13203795968 Internal Server Error: /api/documents/api/context/
+ERROR 2025-07-01 20:48:46,330 structure_views 31770 13220622336 Error managing context: ['“test” no es un UUID válido.']
+ERROR 2025-07-01 20:48:46,330 log 31770 13220622336 Internal Server Error: /api/documents/api/context/
+INFO 2025-07-01 20:48:59,494 views 31770 13170143232 📋 Listando 5 documentos
+ERROR 2025-07-01 20:49:07,962 structure_views 31770 13186969600 Error managing context: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x1240ebac0>>.
+ERROR 2025-07-01 20:49:07,962 log 31770 13186969600 Internal Server Error: /api/documents/api/context/
+INFO 2025-07-01 20:49:23,789 autoreload 31770 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/documents/api/structure_views.py changed, reloading.
+INFO 2025-07-01 20:49:24,650 autoreload 32796 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 20:49:43,215 autoreload 32923 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:49:53,144 log 32923 6127480832 Not Found: /
+ERROR 2025-07-01 20:50:00,170 structure_views 32923 6127480832 Error managing context: No Document matches the given query.
+ERROR 2025-07-01 20:50:00,171 log 32923 6127480832 Internal Server Error: /api/documents/api/context/
+INFO 2025-07-01 20:50:44,505 autoreload 32923 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/documents/api/structure_views.py changed, reloading.
+INFO 2025-07-01 20:50:45,517 autoreload 33218 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 20:51:16,441 log 33218 6128988160 Not Found: /
+INFO 2025-07-01 20:51:28,195 views 33218 6162640896 📋 Listando 5 documentos
+INFO 2025-07-01 20:51:28,230 views 33218 6145814528 📋 Listando 5 documentos
+INFO 2025-07-01 20:51:30,314 views 33218 6162640896 📋 Listando 5 documentos
+INFO 2025-07-01 20:51:30,334 views 33218 6162640896 📋 Listando 5 documentos
+INFO 2025-07-01 20:51:32,030 views 33218 6162640896 🔍 Obteniendo estructura para documento: 0a83b673-ff0c-4d95-99cc-3b4f019f7934
+INFO 2025-07-01 20:51:32,036 views 33218 6162640896 ✅ Estructura ya analizada para: 6G_GD_ Modulo_16_Matemática (1).pdf
+WARNING 2025-07-01 20:56:17,667 ai_service 33218 6145814528 Claude API key no configurada
+INFO 2025-07-01 20:56:17,668 agent_manager 33218 6145814528 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 20:56:17,673 ai_service 33218 6145814528 Claude API key no configurada
+INFO 2025-07-01 20:56:17,674 agent_manager 33218 6145814528 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 20:56:17,678 ai_service 33218 6145814528 Claude API key no configurada
+INFO 2025-07-01 20:56:17,678 agent_manager 33218 6145814528 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 20:56:17,684 ai_service 33218 6145814528 Claude API key no configurada
+INFO 2025-07-01 20:56:17,684 agent_manager 33218 6145814528 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 20:56:17,690 ai_service 33218 6145814528 Claude API key no configurada
+INFO 2025-07-01 20:56:17,690 agent_manager 33218 6145814528 ✅ Analytics Agent inicializado
+INFO 2025-07-01 20:56:17,690 agent_manager 33218 6145814528 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 20:56:17,733 SentenceTransformer 33218 6145814528 Use pytorch device_name: mps
+INFO 2025-07-01 20:56:17,733 SentenceTransformer 33218 6145814528 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 20:56:22,123 enhanced_rag 33218 6145814528 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 20:56:22,631 posthog 33218 6145814528 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 20:56:22,632 enhanced_rag 33218 6145814528 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 20:56:22,632 conversation_memory 33218 6145814528 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 20:56:22,641 conversation_memory 33218 6145814528 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 20:56:22,906 enhanced_rag 33218 6145814528 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 20:56:22,906 conversation_memory 33218 6145814528 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 20:56:22,910 ai_service 33218 6145814528 Procesando consulta con OpenAI - Tokens: 799
+INFO 2025-07-01 20:56:33,481 _client 33218 6145814528 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 20:56:33,489 ai_service 33218 6145814528 Consulta procesada exitosamente en 10.58s
+INFO 2025-07-01 20:56:33,490 agent_manager 33218 6145814528 Interacción procesada - Agente: tutor, Query: 'explicame...', Response time: 10.58s
+ERROR 2025-07-01 20:56:33,490 conversation_memory 33218 6145814528 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 20:56:33,491 conversation_memory 33218 6145814528 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 20:57:17,205 views 33218 12901707776 📋 Listando 5 documentos
+INFO 2025-07-01 20:57:17,210 views 33218 12901707776 📋 Listando 5 documentos
+INFO 2025-07-01 21:05:41,763 views 33218 14236545024 📋 Listando 5 documentos
+INFO 2025-07-01 21:05:41,770 views 33218 14236545024 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:28,736 views 33218 12901707776 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:28,748 views 33218 12901707776 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:35,640 views 33218 6145552384 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:35,653 views 33218 6145552384 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:37,119 views 33218 12901707776 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:37,132 views 33218 12918534144 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 21:11:37,136 views 33218 12918534144 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-01 21:11:37,137 views 33218 6145552384 📋 Listando 5 documentos
+INFO 2025-07-01 21:11:37,140 views 33218 12918534144 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-01 21:11:37,141 views 33218 12918534144 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+WARNING 2025-07-01 21:12:02,001 ai_service 33218 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:12:02,002 agent_manager 33218 12918534144 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:12:02,008 ai_service 33218 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:12:02,008 agent_manager 33218 12918534144 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:12:02,015 ai_service 33218 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:12:02,015 agent_manager 33218 12918534144 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:12:02,020 ai_service 33218 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:12:02,020 agent_manager 33218 12918534144 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:12:02,025 ai_service 33218 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:12:02,025 agent_manager 33218 12918534144 ✅ Analytics Agent inicializado
+INFO 2025-07-01 21:12:02,025 agent_manager 33218 12918534144 AgentManager inicializado con 5 agentes
+INFO 2025-07-01 21:12:02,042 SentenceTransformer 33218 12918534144 Use pytorch device_name: mps
+INFO 2025-07-01 21:12:02,042 SentenceTransformer 33218 12918534144 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 21:12:06,367 enhanced_rag 33218 12918534144 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 21:12:06,401 posthog 33218 12918534144 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 21:12:06,401 enhanced_rag 33218 12918534144 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 21:12:06,404 conversation_memory 33218 12918534144 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 21:12:06,410 conversation_memory 33218 12918534144 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 21:12:06,569 enhanced_rag 33218 12918534144 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 21:12:06,570 conversation_memory 33218 12918534144 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 21:12:06,587 ai_service 33218 12918534144 Procesando consulta con OpenAI - Tokens: 788
+INFO 2025-07-01 21:12:17,329 _client 33218 12918534144 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:12:17,339 ai_service 33218 12918534144 Consulta procesada exitosamente en 10.77s
+INFO 2025-07-01 21:12:17,339 agent_manager 33218 12918534144 Interacción procesada - Agente: tutor, Query: 'de que se trata la unidad?...', Response time: 10.77s
+ERROR 2025-07-01 21:12:17,341 conversation_memory 33218 12918534144 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 21:12:17,342 conversation_memory 33218 12918534144 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 21:19:20,887 autoreload 33218 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/agent_manager.py changed, reloading.
+INFO 2025-07-01 21:19:20,919 autoreload 30701 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/agent_manager.py changed, reloading.
+INFO 2025-07-01 21:19:22,458 autoreload 40610 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:19:22,458 autoreload 40609 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:19:28,888 autoreload 40609 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/agent_manager.py changed, reloading.
+INFO 2025-07-01 21:19:29,615 autoreload 40647 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:19:40,697 autoreload 40647 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/agent_manager.py changed, reloading.
+INFO 2025-07-01 21:19:41,478 autoreload 40728 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:21:03,303 autoreload 40728 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/content_creator_agent.py changed, reloading.
+INFO 2025-07-01 21:21:04,161 autoreload 41037 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:21:26,855 autoreload 41037 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/services/content_creator_agent.py changed, reloading.
+INFO 2025-07-01 21:21:27,675 autoreload 41137 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:24:55,266 views 41137 6220541952 📋 Listando 5 documentos
+INFO 2025-07-01 21:24:55,273 views 41137 6220541952 📋 Listando 5 documentos
+WARNING 2025-07-01 21:25:03,337 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,339 agent_manager 41137 6203715584 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:25:03,343 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,343 agent_manager 41137 6203715584 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:25:03,348 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,348 agent_manager 41137 6203715584 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:25:03,354 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,354 agent_manager 41137 6203715584 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:25:03,358 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,358 agent_manager 41137 6203715584 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:25:03,363 ai_service 41137 6203715584 Claude API key no configurada
+INFO 2025-07-01 21:25:03,363 agent_manager 41137 6203715584 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:25:03,363 agent_manager 41137 6203715584 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:25:03,404 SentenceTransformer 41137 6203715584 Use pytorch device_name: mps
+INFO 2025-07-01 21:25:03,404 SentenceTransformer 41137 6203715584 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-01 21:25:07,922 enhanced_rag 41137 6203715584 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-01 21:25:08,109 posthog 41137 6203715584 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-01 21:25:08,109 enhanced_rag 41137 6203715584 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-01 21:25:08,110 conversation_memory 41137 6203715584 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-01 21:25:08,114 conversation_memory 41137 6203715584 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 21:25:08,417 enhanced_rag 41137 6203715584 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-01 21:25:08,418 conversation_memory 41137 6203715584 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-01 21:25:08,418 agent_manager 41137 6203715584 Query routing: 'Crea una simulación interactiva para enseñar funci...' -> tutor (score: 1.0)
+INFO 2025-07-01 21:25:08,422 ai_service 41137 6203715584 Procesando consulta con OpenAI - Tokens: 700
+INFO 2025-07-01 21:25:17,547 _client 41137 6203715584 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:25:17,558 ai_service 41137 6203715584 Consulta procesada exitosamente en 9.14s
+INFO 2025-07-01 21:25:17,559 agent_manager 41137 6203715584 Interacción procesada - Agente: tutor, Query: 'Crea una simulación interactiva para enseñar funci...', Response time: 9.14s
+ERROR 2025-07-01 21:25:17,560 conversation_memory 41137 6203715584 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-01 21:25:17,561 conversation_memory 41137 6203715584 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-01 21:27:21,720 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,720 agent_manager 42788 8355503872 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:27:21,724 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,724 agent_manager 42788 8355503872 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:27:21,729 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,729 agent_manager 42788 8355503872 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:27:21,733 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,733 agent_manager 42788 8355503872 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:27:21,738 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,739 agent_manager 42788 8355503872 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:27:21,743 ai_service 42788 8355503872 Claude API key no configurada
+INFO 2025-07-01 21:27:21,743 agent_manager 42788 8355503872 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:27:21,743 agent_manager 42788 8355503872 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:27:21,744 ai_service 42788 8355503872 Procesando consulta con OpenAI - Tokens: 1128
+INFO 2025-07-01 21:27:29,369 _client 42788 8355503872 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:27:29,375 ai_service 42788 8355503872 Consulta procesada exitosamente en 7.63s
+INFO 2025-07-01 21:27:29,375 agent_manager 42788 8355503872 Interacción procesada - Agente: content_creator, Query: 'Crea una simulación interactiva para enseñar funci...', Response time: 7.63s
+INFO 2025-07-01 21:27:57,185 autoreload 41137 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/urls.py changed, reloading.
+INFO 2025-07-01 21:27:58,223 autoreload 42929 8355503872 Watching for file changes with StatReloader
+INFO 2025-07-01 21:28:45,204 autoreload 42929 8355503872 /Users/eudesz/Documents/MySpace/Chat_agent_AI/Archivo/apps/agents/views.py changed, reloading.
+INFO 2025-07-01 21:28:46,103 autoreload 43098 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 21:29:01,624 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,625 agent_manager 43098 6198079488 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:29:01,629 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,629 agent_manager 43098 6198079488 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:29:01,633 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,633 agent_manager 43098 6198079488 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:29:01,638 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,638 agent_manager 43098 6198079488 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:29:01,642 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,642 agent_manager 43098 6198079488 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:29:01,646 ai_service 43098 6198079488 Claude API key no configurada
+INFO 2025-07-01 21:29:01,646 agent_manager 43098 6198079488 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:29:01,646 agent_manager 43098 6198079488 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:29:01,647 ai_service 43098 6198079488 Procesando consulta con OpenAI - Tokens: 1125
+INFO 2025-07-01 21:29:09,486 _client 43098 6198079488 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:29:09,498 ai_service 43098 6198079488 Consulta procesada exitosamente en 7.85s
+INFO 2025-07-01 21:29:09,499 agent_manager 43098 6198079488 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar Funci...', Response time: 7.85s
+INFO 2025-07-01 21:30:22,734 views 43098 6232305664 📋 Listando 5 documentos
+INFO 2025-07-01 21:30:22,740 views 43098 6232305664 📋 Listando 5 documentos
+INFO 2025-07-01 21:30:28,615 views 43098 6215479296 📋 Listando 5 documentos
+INFO 2025-07-01 21:30:28,622 views 43098 6215479296 📋 Listando 5 documentos
+INFO 2025-07-01 21:31:55,468 autoreload 44680 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 21:32:05,461 log 44680 6156513280 Not Found: /
+WARNING 2025-07-01 21:32:11,835 log 44680 6156513280 Not Found: /
+WARNING 2025-07-01 21:32:12,647 log 44680 6156513280 Not Found: /favicon.ico
+INFO 2025-07-01 21:32:20,497 autoreload 45092 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 21:32:22,516 log 44680 12901707776 Not Found: /
+WARNING 2025-07-01 21:32:29,162 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,162 agent_manager 44680 12918534144 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:32:29,167 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,167 agent_manager 44680 12918534144 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:32:29,172 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,172 agent_manager 44680 12918534144 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:32:29,177 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,177 agent_manager 44680 12918534144 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:32:29,182 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,182 agent_manager 44680 12918534144 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:32:29,187 ai_service 44680 12918534144 Claude API key no configurada
+INFO 2025-07-01 21:32:29,187 agent_manager 44680 12918534144 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:32:29,187 agent_manager 44680 12918534144 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:32:29,191 ai_service 44680 12918534144 Procesando consulta con OpenAI - Tokens: 1124
+INFO 2025-07-01 21:32:37,041 _client 44680 12918534144 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:32:37,052 ai_service 44680 12918534144 Consulta procesada exitosamente en 7.86s
+INFO 2025-07-01 21:32:37,052 agent_manager 44680 12918534144 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar funci...', Response time: 7.86s
+WARNING 2025-07-01 21:32:48,813 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,814 agent_manager 44680 12901707776 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:32:48,820 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,820 agent_manager 44680 12901707776 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:32:48,827 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,827 agent_manager 44680 12901707776 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:32:48,835 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,836 agent_manager 44680 12901707776 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:32:48,842 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,842 agent_manager 44680 12901707776 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:32:48,849 ai_service 44680 12901707776 Claude API key no configurada
+INFO 2025-07-01 21:32:48,849 agent_manager 44680 12901707776 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:32:48,849 agent_manager 44680 12901707776 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:32:48,853 ai_service 44680 12901707776 Procesando consulta con OpenAI - Tokens: 1124
+INFO 2025-07-01 21:32:56,815 _client 44680 12901707776 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:32:56,824 ai_service 44680 12901707776 Consulta procesada exitosamente en 7.97s
+INFO 2025-07-01 21:32:56,824 agent_manager 44680 12901707776 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar funci...', Response time: 7.97s
+WARNING 2025-07-01 21:33:22,925 log 44680 6156513280 Not Found: /
+WARNING 2025-07-01 21:33:25,463 log 44680 6156513280 Not Found: /
+WARNING 2025-07-01 21:33:25,688 log 44680 6156513280 Not Found: /
+INFO 2025-07-01 21:33:48,889 autoreload 45849 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-01 21:33:58,244 log 45849 6133870592 Not Found: /
+INFO 2025-07-01 21:34:09,369 views 45849 6150696960 📋 Listando 5 documentos
+INFO 2025-07-01 21:34:09,444 views 45849 6150696960 📋 Listando 5 documentos
+WARNING 2025-07-01 21:34:34,936 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,937 agent_manager 45849 6150696960 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:34:34,941 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,941 agent_manager 45849 6150696960 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:34:34,946 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,946 agent_manager 45849 6150696960 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:34:34,951 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,951 agent_manager 45849 6150696960 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:34:34,955 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,955 agent_manager 45849 6150696960 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:34:34,960 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:34:34,960 agent_manager 45849 6150696960 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:34:34,960 agent_manager 45849 6150696960 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:34:34,963 ai_service 45849 6150696960 Procesando consulta con OpenAI - Tokens: 1127
+INFO 2025-07-01 21:34:44,185 _client 45849 6150696960 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:34:44,194 ai_service 45849 6150696960 Consulta procesada exitosamente en 9.23s
+INFO 2025-07-01 21:34:44,194 agent_manager 45849 6150696960 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar Ecuac...', Response time: 9.23s
+WARNING 2025-07-01 21:35:33,447 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,449 agent_manager 45849 6168096768 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:35:33,453 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,453 agent_manager 45849 6168096768 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:35:33,458 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,458 agent_manager 45849 6168096768 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:35:33,462 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,462 agent_manager 45849 6168096768 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:35:33,466 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,466 agent_manager 45849 6168096768 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:35:33,470 ai_service 45849 6168096768 Claude API key no configurada
+INFO 2025-07-01 21:35:33,471 agent_manager 45849 6168096768 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:35:33,471 agent_manager 45849 6168096768 AgentManager inicializado con 6 agentes
+WARNING 2025-07-01 21:37:00,829 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,830 agent_manager 45849 6133870592 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:37:00,835 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,835 agent_manager 45849 6133870592 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:37:00,841 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,841 agent_manager 45849 6133870592 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:37:00,846 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,846 agent_manager 45849 6133870592 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:37:00,851 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,851 agent_manager 45849 6133870592 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:37:00,855 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 21:37:00,855 agent_manager 45849 6133870592 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:37:00,855 agent_manager 45849 6133870592 AgentManager inicializado con 6 agentes
+WARNING 2025-07-01 21:37:07,058 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,058 agent_manager 45849 6150696960 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:37:07,063 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,064 agent_manager 45849 6150696960 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:37:07,068 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,068 agent_manager 45849 6150696960 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:37:07,073 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,073 agent_manager 45849 6150696960 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:37:07,078 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,078 agent_manager 45849 6150696960 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:37:07,082 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 21:37:07,082 agent_manager 45849 6150696960 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:37:07,082 agent_manager 45849 6150696960 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:37:07,089 ai_service 45849 6150696960 Procesando consulta con OpenAI - Tokens: 1127
+INFO 2025-07-01 21:37:15,167 _client 45849 6150696960 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:37:15,173 ai_service 45849 6150696960 Consulta procesada exitosamente en 8.09s
+INFO 2025-07-01 21:37:15,173 agent_manager 45849 6150696960 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar ecuac...', Response time: 8.09s
+WARNING 2025-07-01 21:38:02,581 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,582 agent_manager 45849 12968816640 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 21:38:02,593 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,593 agent_manager 45849 12968816640 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 21:38:02,601 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,601 agent_manager 45849 12968816640 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 21:38:02,609 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,609 agent_manager 45849 12968816640 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 21:38:02,615 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,615 agent_manager 45849 12968816640 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 21:38:02,621 ai_service 45849 12968816640 Claude API key no configurada
+INFO 2025-07-01 21:38:02,621 agent_manager 45849 12968816640 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 21:38:02,621 agent_manager 45849 12968816640 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 21:38:02,625 ai_service 45849 12968816640 Procesando consulta con OpenAI - Tokens: 1127
+INFO 2025-07-01 21:38:13,723 _client 45849 12968816640 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 21:38:13,728 ai_service 45849 12968816640 Consulta procesada exitosamente en 11.11s
+INFO 2025-07-01 21:38:13,728 agent_manager 45849 12968816640 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar Ecuac...', Response time: 11.11s
+WARNING 2025-07-01 22:02:22,011 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,014 agent_manager 45849 6133870592 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 22:02:22,020 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,020 agent_manager 45849 6133870592 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 22:02:22,025 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,025 agent_manager 45849 6133870592 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 22:02:22,031 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,031 agent_manager 45849 6133870592 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 22:02:22,036 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,036 agent_manager 45849 6133870592 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 22:02:22,042 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:02:22,042 agent_manager 45849 6133870592 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 22:02:22,043 agent_manager 45849 6133870592 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 22:02:22,055 ai_service 45849 6133870592 Procesando consulta con OpenAI - Tokens: 1122
+INFO 2025-07-01 22:02:32,551 _client 45849 6133870592 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 22:02:32,561 ai_service 45849 6133870592 Consulta procesada exitosamente en 10.51s
+INFO 2025-07-01 22:02:32,561 agent_manager 45849 6133870592 Interacción procesada - Agente: content_creator, Query: 'Crea una ejercicio interactiva para enseñar seno...', Response time: 10.51s
+WARNING 2025-07-01 22:03:02,962 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:02,963 agent_manager 45849 6150696960 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 22:03:02,975 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:02,975 agent_manager 45849 6150696960 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 22:03:02,985 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:02,985 agent_manager 45849 6150696960 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 22:03:02,993 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:02,993 agent_manager 45849 6150696960 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 22:03:03,000 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:03,000 agent_manager 45849 6150696960 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 22:03:03,005 ai_service 45849 6150696960 Claude API key no configurada
+INFO 2025-07-01 22:03:03,006 agent_manager 45849 6150696960 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 22:03:03,006 agent_manager 45849 6150696960 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 22:03:03,010 ai_service 45849 6150696960 Procesando consulta con OpenAI - Tokens: 1122
+INFO 2025-07-01 22:03:09,441 _client 45849 6150696960 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 22:03:09,445 ai_service 45849 6150696960 Consulta procesada exitosamente en 6.44s
+INFO 2025-07-01 22:03:09,446 agent_manager 45849 6150696960 Interacción procesada - Agente: content_creator, Query: 'Crea una ejercicio interactiva para enseñar cubo ...', Response time: 6.44s
+INFO 2025-07-01 22:03:21,429 views 45849 12985643008 📋 Listando 5 documentos
+INFO 2025-07-01 22:03:21,445 views 45849 12985643008 📋 Listando 5 documentos
+WARNING 2025-07-01 22:03:51,985 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:51,985 agent_manager 45849 6133870592 ✅ Tutor Agent inicializado
+WARNING 2025-07-01 22:03:51,991 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:51,992 agent_manager 45849 6133870592 ✅ Evaluator Agent inicializado
+WARNING 2025-07-01 22:03:51,997 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:51,997 agent_manager 45849 6133870592 ✅ Counselor Agent inicializado
+WARNING 2025-07-01 22:03:52,003 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:52,003 agent_manager 45849 6133870592 ✅ Curriculum Agent inicializado
+WARNING 2025-07-01 22:03:52,008 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:52,008 agent_manager 45849 6133870592 ✅ Analytics Agent inicializado
+WARNING 2025-07-01 22:03:52,013 ai_service 45849 6133870592 Claude API key no configurada
+INFO 2025-07-01 22:03:52,013 agent_manager 45849 6133870592 ✅ Content Creator Agent inicializado
+INFO 2025-07-01 22:03:52,013 agent_manager 45849 6133870592 AgentManager inicializado con 6 agentes
+INFO 2025-07-01 22:03:52,016 ai_service 45849 6133870592 Procesando consulta con OpenAI - Tokens: 1126
+INFO 2025-07-01 22:04:02,566 _client 45849 6133870592 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-01 22:04:02,568 ai_service 45849 6133870592 Consulta procesada exitosamente en 10.55s
+INFO 2025-07-01 22:04:02,568 agent_manager 45849 6133870592 Interacción procesada - Agente: content_creator, Query: 'Crea una juego interactiva para enseñar Ecuaciones...', Response time: 10.55s
+INFO 2025-07-02 14:26:32,276 autoreload 87446 8355503872 Watching for file changes with StatReloader
+WARNING 2025-07-02 14:26:46,570 log 87446 6193311744 Not Found: /
+INFO 2025-07-02 14:26:47,597 views 87446 6226964480 📋 Listando 5 documentos
+INFO 2025-07-02 14:26:47,622 views 87446 6226964480 📋 Listando 5 documentos
+INFO 2025-07-02 14:27:07,346 views 87446 6226964480 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-02 14:27:07,362 views 87446 6226964480 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-02 14:27:07,368 views 87446 6210138112 📋 Listando 5 documentos
+INFO 2025-07-02 14:27:07,370 views 87446 6226964480 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-02 14:27:07,383 views 87446 6226964480 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-02 14:27:07,396 views 87446 6210138112 📋 Listando 5 documentos
+WARNING 2025-07-02 14:27:29,611 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,611 agent_manager 87446 6193311744 ✅ Tutor Agent inicializado
+WARNING 2025-07-02 14:27:29,616 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,617 agent_manager 87446 6193311744 ✅ Evaluator Agent inicializado
+WARNING 2025-07-02 14:27:29,621 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,621 agent_manager 87446 6193311744 ✅ Counselor Agent inicializado
+WARNING 2025-07-02 14:27:29,626 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,626 agent_manager 87446 6193311744 ✅ Curriculum Agent inicializado
+WARNING 2025-07-02 14:27:29,631 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,631 agent_manager 87446 6193311744 ✅ Analytics Agent inicializado
+WARNING 2025-07-02 14:27:29,638 ai_service 87446 6193311744 Claude API key no configurada
+INFO 2025-07-02 14:27:29,638 agent_manager 87446 6193311744 ✅ Content Creator Agent inicializado
+INFO 2025-07-02 14:27:29,638 agent_manager 87446 6193311744 AgentManager inicializado con 6 agentes
+INFO 2025-07-02 14:27:29,726 SentenceTransformer 87446 6193311744 Use pytorch device_name: mps
+INFO 2025-07-02 14:27:29,726 SentenceTransformer 87446 6193311744 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO 2025-07-02 14:27:34,959 enhanced_rag 87446 6193311744 Modelo de embeddings cargado: all-MiniLM-L6-v2
+ERROR 2025-07-02 14:27:35,476 posthog 87446 6193311744 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+INFO 2025-07-02 14:27:35,476 enhanced_rag 87446 6193311744 ChromaDB inicializado en: ./chroma_db
+INFO 2025-07-02 14:27:35,478 conversation_memory 87446 6193311744 ConversationMemory inicializada para demo-user/tutor
+ERROR 2025-07-02 14:27:35,482 conversation_memory 87446 6193311744 Error obteniendo contexto: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-02 14:27:35,908 enhanced_rag 87446 6193311744 No se encontraron documentos para el usuario demo-user
+ERROR 2025-07-02 14:27:35,909 conversation_memory 87446 6193311744 Error obteniendo metadatos: Error 61 connecting to localhost:6379. Connection refused.
+INFO 2025-07-02 14:27:35,909 agent_manager 87446 6193311744 Query routing: 'explicame el concepto...' -> tutor (score: 1.0)
+INFO 2025-07-02 14:27:35,918 ai_service 87446 6193311744 Procesando consulta con OpenAI - Tokens: 802
+INFO 2025-07-02 14:27:42,482 _client 87446 6193311744 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-02 14:27:42,490 ai_service 87446 6193311744 Consulta procesada exitosamente en 6.58s
+INFO 2025-07-02 14:27:42,490 agent_manager 87446 6193311744 Interacción procesada - Agente: tutor, Query: 'explicame el concepto...', Response time: 6.58s
+ERROR 2025-07-02 14:27:42,492 conversation_memory 87446 6193311744 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+ERROR 2025-07-02 14:27:42,492 conversation_memory 87446 6193311744 Error agregando mensaje: Error 61 connecting to localhost:6379. Connection refused.
+WARNING 2025-07-02 14:28:01,388 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,388 agent_manager 87446 13104295936 ✅ Tutor Agent inicializado
+WARNING 2025-07-02 14:28:01,396 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,396 agent_manager 87446 13104295936 ✅ Evaluator Agent inicializado
+WARNING 2025-07-02 14:28:01,402 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,402 agent_manager 87446 13104295936 ✅ Counselor Agent inicializado
+WARNING 2025-07-02 14:28:01,407 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,407 agent_manager 87446 13104295936 ✅ Curriculum Agent inicializado
+WARNING 2025-07-02 14:28:01,412 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,412 agent_manager 87446 13104295936 ✅ Analytics Agent inicializado
+WARNING 2025-07-02 14:28:01,417 ai_service 87446 13104295936 Claude API key no configurada
+INFO 2025-07-02 14:28:01,417 agent_manager 87446 13104295936 ✅ Content Creator Agent inicializado
+INFO 2025-07-02 14:28:01,418 agent_manager 87446 13104295936 AgentManager inicializado con 6 agentes
+INFO 2025-07-02 14:28:01,429 ai_service 87446 13104295936 Procesando consulta con OpenAI - Tokens: 1125
+INFO 2025-07-02 14:28:12,054 _client 87446 13104295936 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-02 14:28:12,062 ai_service 87446 13104295936 Consulta procesada exitosamente en 10.64s
+INFO 2025-07-02 14:28:12,062 agent_manager 87446 13104295936 Interacción procesada - Agente: content_creator, Query: 'Crea una simulacion interactiva para enseñar Funci...', Response time: 10.64s
+INFO 2025-07-02 14:28:19,437 views 87446 13154775040 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-02 14:28:19,441 views 87446 13154775040 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-02 14:28:19,481 views 87446 13154775040 🔍 Obteniendo estructura para documento: 58a881b8-5c24-4dc7-b395-1bb888fadd59
+INFO 2025-07-02 14:28:19,482 views 87446 13137948672 📋 Listando 5 documentos
+INFO 2025-07-02 14:28:19,482 views 87446 13154775040 ✅ Estructura ya analizada para: 1G GD M1-M5 b.pdf
+INFO 2025-07-02 14:28:19,485 views 87446 13137948672 📋 Listando 5 documentos
+INFO 2025-07-02 14:28:28,717 views 87446 13104295936 📋 Listando 5 documentos
+INFO 2025-07-02 14:28:28,729 views 87446 13104295936 📋 Listando 5 documentos

@@ -1,0 +1,17 @@
+{
+  "avg_score": 26.666666666666668,
+  "agent_perf": {
+    "Info_Opt": 28.333333333333332,
+    "Comp_Opt": 0.0,
+    "Temp_Opt": 14.0,
+    "Clin_Opt": 26.666666666666668
+  },
+  "cv_risk": {
+    "level": "MODERADO",
+    "score": 4,
+    "factors": [
+      "Glucosa: PREDIAB",
+      "HbA1c: PREDIAB"
+    ]
+  }
+}

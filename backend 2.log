@@ -1,0 +1,27 @@
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+Not Found: /
+WARNING Not Found: /
+[02/Jul/2025 10:48:21] "GET / HTTP/1.1" 404 2636
+Not Found: /api/documents/api/list/
+WARNING Not Found: /api/documents/api/list/
+[02/Jul/2025 10:48:28] "GET /api/documents/api/list/ HTTP/1.1" 404 4665
+ERROR Error listing documents: no such column: documents_document.upload_date
+Internal Server Error: /api/documents/list/
+ERROR Internal Server Error: /api/documents/list/
+[02/Jul/2025 10:48:28] "GET /api/documents/list/ HTTP/1.1" 500 59
+Not Found: /api/documents/api/list/
+WARNING Not Found: /api/documents/api/list/
+[02/Jul/2025 10:48:28] "GET /api/documents/api/list/ HTTP/1.1" 404 4665
+ERROR Error listing documents: no such column: documents_document.upload_date
+Internal Server Error: /api/documents/list/
+ERROR Internal Server Error: /api/documents/list/
+[02/Jul/2025 10:48:29] "GET /api/documents/list/ HTTP/1.1" 500 59
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 02, 2025 - 10:48:15
+Django version 4.2.7, using settings 'backend_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
